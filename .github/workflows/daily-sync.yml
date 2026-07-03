@@ -1,0 +1,55 @@
+name: Daily KB Sync
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 2 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run daily sync
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_FILE_SEARCH_STORE_NAME: ${{ secrets.GEMINI_FILE_SEARCH_STORE_NAME }}
+          ARTICLE_LIMIT: "30"
+          GEMINI_MODEL: gemini-3.5-flash
+          GEMINI_EMBEDDING_MODEL: models/gemini-embedding-2
+        run: |
+          mkdir -p docs
+          python main.py 2>&1 | tee docs/last-run.log
+
+      - name: Upload run log artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: daily-sync-log
+          path: docs/last-run.log
+
+      - name: Commit updated markdown and manifests
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/markdown data/state docs/last-run.log
+          if git diff --cached --quiet; then
+            echo "No content or manifest changes to commit."
+          else
+            git commit -m "chore: update kb sync state"
+            git push
+          fi

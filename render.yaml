@@ -1,0 +1,19 @@
+services:
+  - type: cron
+    name: kb-sync-agent-daily
+    runtime: docker
+    schedule: "0 2 * * *"
+    dockerfilePath: ./Dockerfile
+    dockerContext: .
+    dockerCommand: python main.py
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: GEMINI_FILE_SEARCH_STORE_NAME
+        sync: false
+      - key: ARTICLE_LIMIT
+        value: "30"
+      - key: GEMINI_MODEL
+        value: gemini-3.5-flash
+      - key: GEMINI_EMBEDDING_MODEL
+        value: models/gemini-embedding-2
