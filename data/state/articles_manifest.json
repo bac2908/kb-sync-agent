@@ -4,209 +4,209 @@
     "slug": "how-to-use-youtube-with-optisigns",
     "updated_at": "2026-06-18T05:00:56Z",
     "hash": "cd83514c70cc84c7496983cb2573778e27b3a2984c3c7c46c107886c92d5f6e2",
-    "file_path": "data\\markdown\\how-to-use-youtube-with-optisigns.md"
+    "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53095698149011-Using-the-Japan-Earthquake-App": {
     "title": "Using the Japan Earthquake App",
     "slug": "using-the-japan-earthquake-app",
     "updated_at": "2026-07-02T14:16:18Z",
     "hash": "1271f7f465988a31158ba70e24eabce5f1eb324ab4f5aa564550ebd8ddb04e8b",
-    "file_path": "data\\markdown\\using-the-japan-earthquake-app.md"
+    "file_path": "data/markdown/using-the-japan-earthquake-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53028011485715-How-to-Display-a-Snowflake-Dashboard-with-OptiSigns": {
     "title": "How to Display a Snowflake Dashboard with OptiSigns",
     "slug": "how-to-display-a-snowflake-dashboard-with-optisigns",
     "updated_at": "2026-07-01T21:59:22Z",
     "hash": "fc548227c8fd5785cb29b8f01bca6030e8ef831a2f60b9f5c7178b90de2496ba",
-    "file_path": "data\\markdown\\how-to-display-a-snowflake-dashboard-with-optisigns.md"
+    "file_path": "data/markdown/how-to-display-a-snowflake-dashboard-with-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/52523606879251-OptiSigns-Digital-Signage-App-for-Zoom-Adding-Using-and-Removing-the-App": {
     "title": "OptiSigns Digital Signage App for Zoom — Adding, Using, and Removing the App",
     "slug": "optisigns-digital-signage-app-for-zoom-adding-using-and-removing-the-app",
     "updated_at": "2026-06-11T22:24:43Z",
     "hash": "68fce6641a63b6163a29c2eff278fa15bf8794905c8f1fe91eb126d7210fe41c",
-    "file_path": "data\\markdown\\optisigns-digital-signage-app-for-zoom-adding-using-and-removing-the-app.md"
+    "file_path": "data/markdown/optisigns-digital-signage-app-for-zoom-adding-using-and-removing-the-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/52412502456083-Connect-Google-Meet-Hardware-to-OptiSigns-Digital-Signage": {
     "title": "Connect Google Meet Hardware to OptiSigns Digital Signage",
     "slug": "connect-google-meet-hardware-to-optisigns-digital-signage",
     "updated_at": "2026-06-15T19:14:07Z",
     "hash": "71f66af933e777332790beb6363e2ca736e1f0f980be09ee1c5250d83ab4179c",
-    "file_path": "data\\markdown\\connect-google-meet-hardware-to-optisigns-digital-signage.md"
+    "file_path": "data/markdown/connect-google-meet-hardware-to-optisigns-digital-signage.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/52350277262483-Connect-Microsoft-Teams-Rooms-to-OptiSigns-Digital-Signage": {
     "title": "Connect Microsoft Teams Rooms to OptiSigns Digital Signage",
     "slug": "connect-microsoft-teams-rooms-to-optisigns-digital-signage",
     "updated_at": "2026-06-24T18:39:16Z",
     "hash": "725f1d19204752e49b38245710c5ba8d7a3cc5596da1e7f60df0f1cce2c63141",
-    "file_path": "data\\markdown\\connect-microsoft-teams-rooms-to-optisigns-digital-signage.md"
+    "file_path": "data/markdown/connect-microsoft-teams-rooms-to-optisigns-digital-signage.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/52113036672403-Room-Integrations-Turn-Your-Meeting-Rooms-into-Digital-Signage": {
     "title": "Room Integrations: Turn Your Meeting Rooms into Digital Signage",
     "slug": "room-integrations-turn-your-meeting-rooms-into-digital-signage",
     "updated_at": "2026-06-15T19:14:16Z",
     "hash": "d6f1beb9001605fab5037087e6a6ea5074cc6060104a409ba2c5221afe4c94d3",
-    "file_path": "data\\markdown\\room-integrations-turn-your-meeting-rooms-into-digital-signage.md"
+    "file_path": "data/markdown/room-integrations-turn-your-meeting-rooms-into-digital-signage.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/52069065128723-Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage": {
     "title": "Connect Zoom Rooms to OptiSigns Digital Signage",
     "slug": "connect-zoom-rooms-to-optisigns-digital-signage",
     "updated_at": "2026-06-11T22:22:00Z",
     "hash": "c08f1d07277279cae26170af18bd137986de0400ca397db2828ae1afc11a5a39",
-    "file_path": "data\\markdown\\connect-zoom-rooms-to-optisigns-digital-signage.md"
+    "file_path": "data/markdown/connect-zoom-rooms-to-optisigns-digital-signage.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/51343184586643-Connect-Cisco-Webex-Rooms-to-OptiSigns-Digital-Signage": {
     "title": "Connect Cisco Webex Rooms to OptiSigns Digital Signage",
     "slug": "connect-cisco-webex-rooms-to-optisigns-digital-signage",
     "updated_at": "2026-07-01T16:55:46Z",
     "hash": "6fffeeec3edefcbb99d10780f8a3730c3595e3a6c6fc5b6084a02ffa676e71aa",
-    "file_path": "data\\markdown\\connect-cisco-webex-rooms-to-optisigns-digital-signage.md"
+    "file_path": "data/markdown/connect-cisco-webex-rooms-to-optisigns-digital-signage.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/49039295567891-ChromeOS-PWA-Instructions": {
     "title": "ChromeOS PWA Instructions",
     "slug": "chromeos-pwa-instructions",
     "updated_at": "2026-05-05T15:48:27Z",
     "hash": "a5b9df4dcd19f64d67fd26de0d6423b523cd9cbf9d3f173034620c70a28a8e68",
-    "file_path": "data\\markdown\\chromeos-pwa-instructions.md"
+    "file_path": "data/markdown/chromeos-pwa-instructions.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/48751096814995-How-to-Use-the-Google-Ads-Dashboard-App": {
     "title": "How to Use the Google Ads Dashboard App",
     "slug": "how-to-use-the-google-ads-dashboard-app",
     "updated_at": "2026-02-02T17:54:16Z",
     "hash": "6f5dcc2a96d63b58e0b0755547b18f60ebbfdc58998d1e27fc33773885abc3f1",
-    "file_path": "data\\markdown\\how-to-use-the-google-ads-dashboard-app.md"
+    "file_path": "data/markdown/how-to-use-the-google-ads-dashboard-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/48656950622227-How-to-Use-the-Google-Search-Console-App": {
     "title": "How to Use the Google Search Console App",
     "slug": "how-to-use-the-google-search-console-app",
     "updated_at": "2026-02-02T17:56:42Z",
     "hash": "e532ad2b6a4d24bf34d516acdcf1b6403387e9ec4f09702cd95418320dc56187",
-    "file_path": "data\\markdown\\how-to-use-the-google-search-console-app.md"
+    "file_path": "data/markdown/how-to-use-the-google-search-console-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/48626115821459-How-to-Use-the-YouTube-Dashboard-App": {
     "title": "How to Use the YouTube Dashboard App",
     "slug": "how-to-use-the-youtube-dashboard-app",
     "updated_at": "2026-02-02T15:32:55Z",
     "hash": "7e68d2e9d32d0216b8138544529fd8571c1a9b8b0b556734e896eecea04cb882",
-    "file_path": "data\\markdown\\how-to-use-the-youtube-dashboard-app.md"
+    "file_path": "data/markdown/how-to-use-the-youtube-dashboard-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/48241081473043-Operational-Schedule-Troubleshooting": {
     "title": "Operational Schedule Troubleshooting",
     "slug": "operational-schedule-troubleshooting",
     "updated_at": "2026-04-20T21:26:17Z",
     "hash": "7ebbc97abe507ae522cac17402e97b1afc84f1f67150364f81fba00a72420823",
-    "file_path": "data\\markdown\\operational-schedule-troubleshooting.md"
+    "file_path": "data/markdown/operational-schedule-troubleshooting.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/47616485609491-How-to-Use-the-OptiDev-App": {
     "title": "How to Use the OptiDev App",
     "slug": "how-to-use-the-optidev-app",
     "updated_at": "2026-02-11T23:03:49Z",
     "hash": "b553b47cdb00cbc6496c0963103555d8880cfb06f7a3b43f31f9a81737c8a03d",
-    "file_path": "data\\markdown\\how-to-use-the-optidev-app.md"
+    "file_path": "data/markdown/how-to-use-the-optidev-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/45619214182803-How-to-Set-Up-an-Outlook-Calendar-App-with-Shared-Permissions": {
     "title": "How to Set Up an Outlook Calendar App with Shared Permissions",
     "slug": "how-to-set-up-an-outlook-calendar-app-with-shared-permissions",
     "updated_at": "2025-10-17T16:01:18Z",
     "hash": "a9c8a8b1d0fcf945a170e0d56ac002e0dbaa099aa6f79d6c8d233f7a2d67c554",
-    "file_path": "data\\markdown\\how-to-set-up-an-outlook-calendar-app-with-shared-permissions.md"
+    "file_path": "data/markdown/how-to-set-up-an-outlook-calendar-app-with-shared-permissions.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/44890229616403-Using-an-Enterprise-Network-802-1x-with-OptiSigns": {
     "title": "Using an Enterprise Network (802.1x) with OptiSigns",
     "slug": "using-an-enterprise-network-802-1x-with-optisigns",
     "updated_at": "2026-05-20T18:11:11Z",
     "hash": "e100de2eac0b31a6643164c6531cc307f9f402030423ef3f0804dae22b7e4162",
-    "file_path": "data\\markdown\\using-an-enterprise-network-802-1x-with-optisigns.md"
+    "file_path": "data/markdown/using-an-enterprise-network-802-1x-with-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/43657735780627-User-Management-Example-Chain-Restaurant-or-Retail-Store-with-Multiple-Locations": {
     "title": "User Management Example - Chain Restaurant or Retail Store with Multiple Locations",
     "slug": "user-management-example-chain-restaurant-or-retail-store-with-multiple-locations",
     "updated_at": "2025-08-28T19:28:55Z",
     "hash": "094ebb3ea137b8ac40d1b4177036be4113c5222a458d6c32fcd0aad91148b3c4",
-    "file_path": "data\\markdown\\user-management-example-chain-restaurant-or-retail-store-with-multiple-locations.md"
+    "file_path": "data/markdown/user-management-example-chain-restaurant-or-retail-store-with-multiple-locations.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/42087942047379-Getting-Started-with-Designer": {
     "title": "Getting Started with Designer",
     "slug": "getting-started-with-designer",
     "updated_at": "2025-10-07T17:18:32Z",
     "hash": "57d4bcc207841e717ccaf79f626d1474145306a56fc4c1f02073b4e63f44ecb4",
-    "file_path": "data\\markdown\\getting-started-with-designer.md"
+    "file_path": "data/markdown/getting-started-with-designer.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/41432385864595-Designer-2-0-New-Features": {
     "title": "Designer 2.0 New Features",
     "slug": "designer-2-0-new-features",
     "updated_at": "2026-05-12T14:17:09Z",
     "hash": "a4040dd6a6125220293faf253ec9596cbec0daf0ec46ab75d07b8fef568d327c",
-    "file_path": "data\\markdown\\designer-2-0-new-features.md"
+    "file_path": "data/markdown/designer-2-0-new-features.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/40736654972563-OptiSigns-Pro-ProMax-Player-Troubleshooting-Guide": {
     "title": "OptiSigns Pro/ProMax Player Troubleshooting Guide",
     "slug": "optisigns-pro-promax-player-troubleshooting-guide",
     "updated_at": "2026-01-13T21:20:16Z",
     "hash": "a5c12fce2f52791ffd1d1eed85efd17aa43264af973429011aa4306f5ef4012b",
-    "file_path": "data\\markdown\\optisigns-pro-promax-player-troubleshooting-guide.md"
+    "file_path": "data/markdown/optisigns-pro-promax-player-troubleshooting-guide.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/40671590645651-How-to-Play-Licensed-Background-Music-on-Digital-Signs-with-OptiSound": {
     "title": "How to Play Licensed Background Music on Digital Signs with OptiSound",
     "slug": "how-to-play-licensed-background-music-on-digital-signs-with-optisound",
     "updated_at": "2026-04-08T22:33:37Z",
     "hash": "599511dd8cf7342544735282cd826bb1b46cf4edc4b13a7fefcb9521e2601474",
-    "file_path": "data\\markdown\\how-to-play-licensed-background-music-on-digital-signs-with-optisound.md"
+    "file_path": "data/markdown/how-to-play-licensed-background-music-on-digital-signs-with-optisound.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/40212027797523-Disk-Encryption": {
     "title": "Disk Encryption",
     "slug": "disk-encryption",
     "updated_at": "2025-09-04T16:19:23Z",
     "hash": "6e63e859f2137c22fb48e4fb462c501c9c15c50458d0a3e7672a3025e428c2d1",
-    "file_path": "data\\markdown\\disk-encryption.md"
+    "file_path": "data/markdown/disk-encryption.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/40147900639891-OptiStick-Troubleshooting-Guide": {
     "title": "OptiStick Troubleshooting Guide",
     "slug": "optistick-troubleshooting-guide",
     "updated_at": "2026-06-26T13:52:36Z",
     "hash": "92bef7aac696c5401bb9a2962c3469ec2198983f193fc5b686959cf731b9fbeb",
-    "file_path": "data\\markdown\\optistick-troubleshooting-guide.md"
+    "file_path": "data/markdown/optistick-troubleshooting-guide.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/39488874989587-Fixing-Unexpected-Screen-Rotation-Incorrect-Orientation-with-OptiSigns-Android-Stick": {
     "title": "Fixing Unexpected Screen Rotation & Incorrect Orientation with OptiSigns Android Stick",
     "slug": "fixing-unexpected-screen-rotation-incorrect-orientation-with-optisigns-android-stick",
     "updated_at": "2025-09-04T15:25:54Z",
     "hash": "76bde96301529b4d19dfa8858a79a7da676baa51ef5bc8459100b6cb4fee45f0",
-    "file_path": "data\\markdown\\fixing-unexpected-screen-rotation-incorrect-orientation-with-optisigns-android-stick.md"
+    "file_path": "data/markdown/fixing-unexpected-screen-rotation-incorrect-orientation-with-optisigns-android-stick.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/39250660729747-How-to-Use-the-Tableau-App": {
     "title": "How to Use the Tableau App",
     "slug": "how-to-use-the-tableau-app",
     "updated_at": "2026-01-06T22:36:49Z",
     "hash": "415f4aa7ecf2a68827c6b1a3bcfc7befd12f47f9d16120a722aaa2c3e57eddf8",
-    "file_path": "data\\markdown\\how-to-use-the-tableau-app.md"
+    "file_path": "data/markdown/how-to-use-the-tableau-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/39080869746067-Handle-OAuth-Authentication-using-API-Gateway-Pre-request-Configuration": {
     "title": "Handle OAuth Authentication using API Gateway Pre-request Configuration",
     "slug": "handle-oauth-authentication-using-api-gateway-pre-request-configuration",
     "updated_at": "2025-08-28T18:42:06Z",
     "hash": "14523b53736532bedfb73c897f4466db641a23510a9bf3b9393406a7eb9c7621",
-    "file_path": "data\\markdown\\handle-oauth-authentication-using-api-gateway-pre-request-configuration.md"
+    "file_path": "data/markdown/handle-oauth-authentication-using-api-gateway-pre-request-configuration.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/38062664690195-Tagging-in-OptiSigns": {
     "title": "Tagging in OptiSigns",
     "slug": "tagging-in-optisigns",
     "updated_at": "2025-09-09T19:34:07Z",
     "hash": "ae590facceae78bf47d17e97bba24db63ac09df4103d3e84e63bf7266d2cab91",
-    "file_path": "data\\markdown\\tagging-in-optisigns.md"
+    "file_path": "data/markdown/tagging-in-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/37966066335891-Getting-Started-with-an-OptiSigns-Free-Trial": {
     "title": "Getting Started with an OptiSigns Free Trial",
     "slug": "getting-started-with-an-optisigns-free-trial",
     "updated_at": "2025-09-04T18:44:24Z",
     "hash": "db117f24a9f0a4a73ee601ea85a9b8cdabe3204bfc88b5e8a7e75fe1e7974124",
-    "file_path": "data\\markdown\\getting-started-with-an-optisigns-free-trial.md"
+    "file_path": "data/markdown/getting-started-with-an-optisigns-free-trial.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/36911639377683-How-to-Use-OptiSigns-with-Microsoft-Teams-Rooms": {
     "title": "How to Use OptiSigns with Microsoft Teams Rooms",
     "slug": "how-to-use-optisigns-with-microsoft-teams-rooms",
     "updated_at": "2025-09-04T18:42:32Z",
     "hash": "d0a10281317c44a949a7af3f1b087e7bfd85e415cb50508cf24c3bb010f3fec0",
-    "file_path": "data\\markdown\\how-to-use-optisigns-with-microsoft-teams-rooms.md"
+    "file_path": "data/markdown/how-to-use-optisigns-with-microsoft-teams-rooms.md"
   }
 }
