@@ -8,13 +8,15 @@ from typing import Dict, Iterable, List, Optional
 from dotenv import load_dotenv
 from google import genai
 
-
-MARKDOWN_DIR = Path("data/markdown")
-STATE_DIR = Path("data/state")
-GEMINI_UPLOAD_MANIFEST_PATH = STATE_DIR / "gemini_upload_manifest.json"
-
-FILE_SEARCH_STORE_DISPLAY_NAME = "kb-sync-agent-knowledge-base"
-DEFAULT_EMBEDDING_MODEL = "models/gemini-embedding-2"
+from src.config import (
+    GEMINI_CHUNK_OVERLAP,
+    GEMINI_CHUNK_SIZE,
+    GEMINI_DEFAULT_EMBEDDING_MODEL,
+    GEMINI_FILE_SEARCH_STORE_DISPLAY_NAME,
+    GEMINI_UPLOAD_MANIFEST_PATH,
+    MARKDOWN_DIR,
+    STATE_DIR,
+)
 
 
 def load_upload_manifest() -> Dict:
@@ -41,7 +43,11 @@ def get_markdown_files() -> List[Path]:
     return files
 
 
-def estimate_chunks(text: str, chunk_size: int = 512, overlap: int = 100) -> int:
+def estimate_chunks(
+    text: str,
+    chunk_size: int = GEMINI_CHUNK_SIZE,
+    overlap: int = GEMINI_CHUNK_OVERLAP,
+) -> int:
     words = text.split()
     if not words:
         return 0
@@ -89,10 +95,10 @@ def create_file_search_store_if_needed(
         print(f"Using Gemini file search store from manifest: {manifest_store_name}")
         return manifest_store_name
 
-    embedding_model = os.getenv("GEMINI_EMBEDDING_MODEL", DEFAULT_EMBEDDING_MODEL)
+    embedding_model = os.getenv("GEMINI_EMBEDDING_MODEL", GEMINI_DEFAULT_EMBEDDING_MODEL)
     file_search_store = client.file_search_stores.create(
         config={
-            "display_name": FILE_SEARCH_STORE_DISPLAY_NAME,
+            "display_name": GEMINI_FILE_SEARCH_STORE_DISPLAY_NAME,
             "embedding_model": embedding_model,
         }
     )
@@ -126,8 +132,8 @@ def upload_file_to_file_search_store(
             "display_name": file_path.name,
             "chunking_config": {
                 "white_space_config": {
-                    "max_tokens_per_chunk": 512,
-                    "max_overlap_tokens": 100,
+                    "max_tokens_per_chunk": GEMINI_CHUNK_SIZE,
+                    "max_overlap_tokens": GEMINI_CHUNK_OVERLAP,
                 }
             },
         },

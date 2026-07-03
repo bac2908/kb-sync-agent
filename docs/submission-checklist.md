@@ -17,7 +17,7 @@
 - `main.py` daily sync with delta logs: done.
 - Dockerfile: done.
 - GitHub Actions daily workflow: ready in `.github/workflows/daily-sync.yml`.
-- Hosted daily job run URL: still needs to be created after pushing to GitHub.
+- Hosted daily job run URL: done in `docs/deployment.md`.
 
 ## Before Pushing
 

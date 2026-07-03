@@ -5,6 +5,10 @@ on:
   schedule:
     - cron: "0 2 * * *"
 
+concurrency:
+  group: daily-kb-sync
+  cancel-in-progress: false
+
 permissions:
   contents: write
 
@@ -15,6 +19,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -24,6 +30,9 @@ jobs:
 
       - name: Install dependencies
         run: pip install -r requirements.txt
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests
 
       - name: Run daily sync
         env:
@@ -51,5 +60,6 @@ jobs:
             echo "No content or manifest changes to commit."
           else
             git commit -m "chore: update kb sync state"
-            git push
+            git pull --rebase origin main
+            git push origin HEAD:main
           fi

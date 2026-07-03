@@ -32,6 +32,12 @@ Test assistant:
 python src/test_gemini_assistant.py
 ```
 
+Run tests:
+
+```bash
+python -m unittest discover -s tests
+```
+
 Sample question: `How do I add a YouTube video?`
 
 ![Assistant answer](docs/screenshots/youtube-answer.png)

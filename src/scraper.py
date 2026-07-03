@@ -1,24 +1,22 @@
 import hashlib
 import json
 import re
-from pathlib import Path
 from typing import Dict, List, Optional
 
-import html2text
 import requests
-from bs4 import BeautifulSoup
 
-
-BASE_API_URL = "https://support.optisigns.com/api/v2/help_center/en-us/articles.json"
-ARTICLE_API_URL_TEMPLATE = (
-    "https://support.optisigns.com/api/v2/help_center/en-us/articles/{article_id}.json"
+from src.cleaner import clean_html, html_to_markdown
+from src.config import (
+    ARTICLE_API_URL_TEMPLATE,
+    ARTICLES_MANIFEST_PATH,
+    BASE_API_URL,
+    MARKDOWN_DIR,
+    PINNED_ARTICLE_IDS,
+    STATE_DIR,
 )
-PINNED_ARTICLE_IDS = [
-    "360051014713",  # How to use YouTube with OptiSigns
-]
-OUTPUT_DIR = Path("data/markdown")
-STATE_DIR = Path("data/state")
-MANIFEST_PATH = STATE_DIR / "articles_manifest.json"
+
+
+MANIFEST_PATH = ARTICLES_MANIFEST_PATH
 
 
 def slugify(text: str) -> str:
@@ -30,39 +28,6 @@ def slugify(text: str) -> str:
     text = re.sub(r"[^a-z0-9]+", "-", text)
     text = re.sub(r"-+", "-", text)
     return text.strip("-") or "article"
-
-
-def clean_html(html: str) -> str:
-    """
-    Remove unnecessary elements from article HTML.
-    Keep main content, headings, links, lists, images, code blocks.
-    """
-    soup = BeautifulSoup(html or "", "html.parser")
-
-    for tag in soup(["script", "style", "noscript", "iframe"]):
-        tag.decompose()
-
-    for tag in soup.find_all(["span", "div"]):
-        if not tag.get_text(strip=True) and not tag.find(["img", "a", "code", "pre"]):
-            tag.decompose()
-
-    return str(soup)
-
-
-def html_to_markdown(html: str) -> str:
-    """
-    Convert cleaned HTML to Markdown.
-    """
-    converter = html2text.HTML2Text()
-    converter.ignore_links = False
-    converter.ignore_images = False
-    converter.body_width = 0
-    converter.unicode_snob = True
-    converter.protect_links = True
-    markdown = converter.handle(html)
-
-    markdown = re.sub(r"\n{3,}", "\n\n", markdown)
-    return markdown.strip()
 
 
 def calculate_hash(content: str) -> str:
@@ -145,13 +110,13 @@ Article URL: {url}
         "updated_at": updated_at,
         "markdown": markdown,
         "hash": content_hash,
-        "file_path": str(OUTPUT_DIR / f"{slug}.md"),
+        "file_path": str(MARKDOWN_DIR / f"{slug}.md"),
     }
 
 
 def save_markdown_file(item: Dict) -> None:
-    OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
-    path = OUTPUT_DIR / f"{item['slug']}.md"
+    MARKDOWN_DIR.mkdir(parents=True, exist_ok=True)
+    path = MARKDOWN_DIR / f"{item['slug']}.md"
     path.write_text(item["markdown"], encoding="utf-8")
 
 
@@ -197,7 +162,7 @@ def scrape_to_markdown(limit: int = 30) -> List[Dict]:
     print()
     print("Scrape completed.")
     print(f"Articles saved: {len(processed_items)}")
-    print(f"Markdown folder: {OUTPUT_DIR}")
+    print(f"Markdown folder: {MARKDOWN_DIR}")
     print(f"Manifest file: {MANIFEST_PATH}")
 
     return processed_items

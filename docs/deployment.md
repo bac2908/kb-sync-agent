@@ -46,10 +46,8 @@ Markdown/manifest state back to the repo when content changes.
 
 ## Last Run Logs
 
-Add the GitHub Actions run URL here after the first successful hosted run:
-
 ```text
-TODO: https://github.com/bac2908/kb-sync-agent/actions/runs/28638442875
+https://github.com/bac2908/kb-sync-agent/actions/runs/28638442875
 ```
 
 Optional screenshot path:
