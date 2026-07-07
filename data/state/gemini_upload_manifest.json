@@ -154,5 +154,17 @@
     "file_name": "how-to-use-youtube-with-optisigns.md",
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtouseyoutubewithoptisign-xk48qn30f20z",
     "estimated_chunks": 1
+  },
+  "data/markdown/what-access-does-optisigns-have-to-my-account-and-devices.md": {
+    "file_name": "what-access-does-optisigns-have-to-my-account-and-devices.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/whataccessdoesoptisignshave-bja25jjxk07c",
+    "estimated_chunks": 2,
+    "hash": "ca740c39976c5c37e581917913776818fa87c5c349c418c99e8dc21e02c32359"
+  },
+  "data/markdown/using-the-japan-earthquake-app.md": {
+    "file_name": "using-the-japan-earthquake-app.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthejapanearthquakeappm-yvgxsx5whtqp",
+    "estimated_chunks": 2,
+    "hash": "14484d53b09a9167f1730cf12b1a40821b898ccb4e468bbe35f8b544d719c40d"
   }
 }

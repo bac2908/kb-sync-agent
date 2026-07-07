@@ -5,6 +5,7 @@ Step 1: Scraping articles and converting to Markdown...
 Fetching pinned article: https://support.optisigns.com/api/v2/help_center/en-us/articles/360051014713.json
 Fetching: https://support.optisigns.com/api/v2/help_center/en-us/articles.json?per_page=100
 Saved: data/markdown/how-to-use-youtube-with-optisigns.md
+Saved: data/markdown/what-access-does-optisigns-have-to-my-account-and-devices.md
 Saved: data/markdown/using-the-japan-earthquake-app.md
 Saved: data/markdown/how-to-display-a-snowflake-dashboard-with-optisigns.md
 Saved: data/markdown/optisigns-digital-signage-app-for-zoom-adding-using-and-removing-the-app.md
@@ -33,7 +34,6 @@ Saved: data/markdown/how-to-use-the-tableau-app.md
 Saved: data/markdown/handle-oauth-authentication-using-api-gateway-pre-request-configuration.md
 Saved: data/markdown/tagging-in-optisigns.md
 Saved: data/markdown/getting-started-with-an-optisigns-free-trial.md
-Saved: data/markdown/how-to-use-optisigns-with-microsoft-teams-rooms.md
 
 Scrape completed.
 Articles saved: 30
@@ -42,18 +42,31 @@ Manifest file: data/state/articles_manifest.json
 
 Step 2: Delta summary...
 Articles discovered: 30
-Added: 0
-Updated: 0
-Skipped: 30
+Added: 1
+Updated: 1
+Skipped: 28
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
-No Markdown delta files to upload to Gemini.
+Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/whataccessdoesoptisignshave-bja25jjxk07c
+Uploaded to Gemini File Search: what-access-does-optisigns-have-to-my-account-and-devices.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthejapanearthquakeappm-yvgxsx5whtqp
+Uploaded to Gemini File Search: using-the-japan-earthquake-app.md
+
+Gemini upload completed.
+File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
+Markdown files found: 32
+Markdown delta files considered: 2
+Uploaded files: 2
+Skipped files: 0
+Estimated chunks embedded: 4
+Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
 Articles discovered: 30
-Added: 0
-Updated: 0
-Skipped: 30
-Uploaded to Gemini: 0
+Added: 1
+Updated: 1
+Skipped: 28
+Uploaded to Gemini: 2
 Gemini skipped uploads: 0
-Estimated chunks embedded: 0
+Estimated chunks embedded: 4

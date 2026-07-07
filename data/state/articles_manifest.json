@@ -6,11 +6,18 @@
     "hash": "cd83514c70cc84c7496983cb2573778e27b3a2984c3c7c46c107886c92d5f6e2",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/53216900345875-What-Access-Does-OptiSigns-Have-to-My-Account-and-Devices": {
+    "title": "What Access Does OptiSigns Have to My Account and Devices?",
+    "slug": "what-access-does-optisigns-have-to-my-account-and-devices",
+    "updated_at": "2026-07-06T15:29:04Z",
+    "hash": "ca740c39976c5c37e581917913776818fa87c5c349c418c99e8dc21e02c32359",
+    "file_path": "data/markdown/what-access-does-optisigns-have-to-my-account-and-devices.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/53095698149011-Using-the-Japan-Earthquake-App": {
     "title": "Using the Japan Earthquake App",
     "slug": "using-the-japan-earthquake-app",
-    "updated_at": "2026-07-02T14:16:18Z",
-    "hash": "1271f7f465988a31158ba70e24eabce5f1eb324ab4f5aa564550ebd8ddb04e8b",
+    "updated_at": "2026-07-06T14:22:20Z",
+    "hash": "14484d53b09a9167f1730cf12b1a40821b898ccb4e468bbe35f8b544d719c40d",
     "file_path": "data/markdown/using-the-japan-earthquake-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53028011485715-How-to-Display-a-Snowflake-Dashboard-with-OptiSigns": {
@@ -201,12 +208,5 @@
     "updated_at": "2025-09-04T18:44:24Z",
     "hash": "db117f24a9f0a4a73ee601ea85a9b8cdabe3204bfc88b5e8a7e75fe1e7974124",
     "file_path": "data/markdown/getting-started-with-an-optisigns-free-trial.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/36911639377683-How-to-Use-OptiSigns-with-Microsoft-Teams-Rooms": {
-    "title": "How to Use OptiSigns with Microsoft Teams Rooms",
-    "slug": "how-to-use-optisigns-with-microsoft-teams-rooms",
-    "updated_at": "2025-09-04T18:42:32Z",
-    "hash": "d0a10281317c44a949a7af3f1b087e7bfd85e415cb50508cf24c3bb010f3fec0",
-    "file_path": "data/markdown/how-to-use-optisigns-with-microsoft-teams-rooms.md"
   }
 }
