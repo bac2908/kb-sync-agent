@@ -5,6 +5,7 @@ Step 1: Scraping articles and converting to Markdown...
 Fetching pinned article: https://support.optisigns.com/api/v2/help_center/en-us/articles/360051014713.json
 Fetching: https://support.optisigns.com/api/v2/help_center/en-us/articles.json?per_page=100
 Saved: data/markdown/how-to-use-youtube-with-optisigns.md
+Saved: data/markdown/refer-earn-optisigns-referral-program.md
 Saved: data/markdown/what-access-does-optisigns-have-to-my-account-and-devices.md
 Saved: data/markdown/using-the-japan-earthquake-app.md
 Saved: data/markdown/how-to-display-a-snowflake-dashboard-with-optisigns.md
@@ -33,7 +34,6 @@ Saved: data/markdown/fixing-unexpected-screen-rotation-incorrect-orientation-wit
 Saved: data/markdown/how-to-use-the-tableau-app.md
 Saved: data/markdown/handle-oauth-authentication-using-api-gateway-pre-request-configuration.md
 Saved: data/markdown/tagging-in-optisigns.md
-Saved: data/markdown/getting-started-with-an-optisigns-free-trial.md
 
 Scrape completed.
 Articles saved: 30
@@ -42,18 +42,33 @@ Manifest file: data/state/articles_manifest.json
 
 Step 2: Delta summary...
 Articles discovered: 30
-Added: 0
-Updated: 0
-Skipped: 30
+Added: 1
+Updated: 2
+Skipped: 27
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
-No Markdown delta files to upload to Gemini.
+Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/referearnoptisignsreferralp-f3tk74d4zski
+Uploaded to Gemini File Search: refer-earn-optisigns-referral-program.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtouseyoutubewithoptisign-bd72l9vtlft0
+Uploaded to Gemini File Search: how-to-use-youtube-with-optisigns.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/roomintegrationsturnyourmee-orafcybxuxbq
+Uploaded to Gemini File Search: room-integrations-turn-your-meeting-rooms-into-digital-signage.md
+
+Gemini upload completed.
+File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
+Markdown files found: 33
+Markdown delta files considered: 3
+Uploaded files: 3
+Skipped files: 0
+Estimated chunks embedded: 6
+Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
 Articles discovered: 30
-Added: 0
-Updated: 0
-Skipped: 30
-Uploaded to Gemini: 0
+Added: 1
+Updated: 2
+Skipped: 27
+Uploaded to Gemini: 3
 Gemini skipped uploads: 0
-Estimated chunks embedded: 0
+Estimated chunks embedded: 6

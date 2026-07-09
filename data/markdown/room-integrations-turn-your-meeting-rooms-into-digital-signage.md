@@ -2,7 +2,7 @@
 
 Article URL: https://support.optisigns.com/hc/en-us/articles/52113036672403-Room-Integrations-Turn-Your-Meeting-Rooms-into-Digital-Signage
 
-![OptiSigns Room Integrations — one place to manage and push digital signage to all your meeting room systems](https://support.optisigns.com/hc/article_attachments/52113329657491)
+![](https://support.optisigns.com/hc/article_attachments/53289486957075)
 
 Your meeting rooms sit idle most of the day. OptiSigns **Room Integrations** put that screen time to work: when a room is between meetings, OptiSigns plays your content — announcements, dashboards, branding, menus, or emergency messages — right on the room display, and clears it the instant a meeting starts.
 
@@ -75,10 +75,10 @@ To set part of your pool aside for room integrations, use **Manage** on the Conn
 
 Pick your platform and follow its setup guide:
 
-  * **[Connect Zoom Rooms →](<https://support.optisigns.com/hc/en-us/articles/52069065128723-Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage>)**
-  * **[Connect Cisco Webex Rooms →](<https://support.optisigns.com/hc/en-us/articles/51343184586643-Connect-Cisco-Webex-Rooms-to-OptiSigns-Digital-Signage>)**
-  * **[Connect Microsoft Teams Rooms →](<https://support.optisigns.com/hc/en-us/articles/52350277262483-Connect-Microsoft-Teams-Rooms-to-OptiSigns-Digital-Signage>)**
-  * **[Connect Google Meet Hardware →](<https://support.optisigns.com/hc/en-us/articles/52412502456083-Connect-Google-Meet-Hardware-to-OptiSigns-Digital-Signage>)**
+  * [**Connect Zoom Rooms →**](<https://support.optisigns.com/hc/en-us/articles/52069065128723-Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage>)
+  * [**Connect Cisco Webex Rooms →**](<https://support.optisigns.com/hc/en-us/articles/51343184586643-Connect-Cisco-Webex-Rooms-to-OptiSigns-Digital-Signage>)
+  * [**Connect Microsoft Teams Rooms →**](<https://support.optisigns.com/hc/en-us/articles/52350277262483-Connect-Microsoft-Teams-Rooms-to-OptiSigns-Digital-Signage>)
+  * [**Connect Google Meet Hardware →**](<https://support.optisigns.com/hc/en-us/articles/52412502456083-Connect-Google-Meet-Hardware-to-OptiSigns-Digital-Signage>)
 
 * * *
 
@@ -95,6 +95,8 @@ Pick your platform and follow its setup guide:
 **How is a room different from a regular screen?** Once activated, a room _is_ a regular OptiSigns screen for content purposes — you assign assets, playlists, and schedules the same way. The difference is how it's connected (through the vendor) and that it only displays while the room is idle.
 
 **What happens if I disconnect a platform?** Disconnecting stops syncing and removes the OptiSigns signage URL from your rooms. Rooms you already activated keep their licenses unless you remove them. You can reconnect at any time.
+
+![OptiSigns Room Integrations — one place to manage and push digital signage to all your meeting room systems](https://support.optisigns.com/hc/article_attachments/52113329657491)
 
 * * *
 

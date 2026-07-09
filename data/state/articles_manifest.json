@@ -2,9 +2,16 @@
   "https://support.optisigns.com/hc/en-us/articles/360051014713-How-to-use-YouTube-with-OptiSigns": {
     "title": "How to use YouTube with OptiSigns",
     "slug": "how-to-use-youtube-with-optisigns",
-    "updated_at": "2026-06-18T05:00:56Z",
-    "hash": "cd83514c70cc84c7496983cb2573778e27b3a2984c3c7c46c107886c92d5f6e2",
+    "updated_at": "2026-07-08T15:01:25Z",
+    "hash": "6f6500034642af1e7f80420f46f6ce6cbfbd109cc2c688cafd731fb3d9f8f499",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
+  },
+  "https://support.optisigns.com/hc/en-us/articles/53293393593491-Refer-Earn-OptiSigns-Referral-Program": {
+    "title": "Refer & Earn: OptiSigns Referral Program",
+    "slug": "refer-earn-optisigns-referral-program",
+    "updated_at": "2026-07-08T17:09:50Z",
+    "hash": "9e3ceb2ebc93b89b7c47a46a91c449d80c09d6f4d8e393dfad3b4a3c9933e7d4",
+    "file_path": "data/markdown/refer-earn-optisigns-referral-program.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53216900345875-What-Access-Does-OptiSigns-Have-to-My-Account-and-Devices": {
     "title": "What Access Does OptiSigns Have to My Account and Devices?",
@@ -16,7 +23,7 @@
   "https://support.optisigns.com/hc/en-us/articles/53095698149011-Using-the-Japan-Earthquake-App": {
     "title": "Using the Japan Earthquake App",
     "slug": "using-the-japan-earthquake-app",
-    "updated_at": "2026-07-06T14:22:20Z",
+    "updated_at": "2026-07-08T18:39:51Z",
     "hash": "14484d53b09a9167f1730cf12b1a40821b898ccb4e468bbe35f8b544d719c40d",
     "file_path": "data/markdown/using-the-japan-earthquake-app.md"
   },
@@ -51,8 +58,8 @@
   "https://support.optisigns.com/hc/en-us/articles/52113036672403-Room-Integrations-Turn-Your-Meeting-Rooms-into-Digital-Signage": {
     "title": "Room Integrations: Turn Your Meeting Rooms into Digital Signage",
     "slug": "room-integrations-turn-your-meeting-rooms-into-digital-signage",
-    "updated_at": "2026-06-15T19:14:16Z",
-    "hash": "d6f1beb9001605fab5037087e6a6ea5074cc6060104a409ba2c5221afe4c94d3",
+    "updated_at": "2026-07-08T14:58:11Z",
+    "hash": "22c9d43d304d9bfa6ea93d087224eee17e045cee8ffeb278281d7aa70a3612a3",
     "file_path": "data/markdown/room-integrations-turn-your-meeting-rooms-into-digital-signage.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/52069065128723-Connect-Zoom-Rooms-to-OptiSigns-Digital-Signage": {
@@ -201,12 +208,5 @@
     "updated_at": "2025-09-09T19:34:07Z",
     "hash": "ae590facceae78bf47d17e97bba24db63ac09df4103d3e84e63bf7266d2cab91",
     "file_path": "data/markdown/tagging-in-optisigns.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/37966066335891-Getting-Started-with-an-OptiSigns-Free-Trial": {
-    "title": "Getting Started with an OptiSigns Free Trial",
-    "slug": "getting-started-with-an-optisigns-free-trial",
-    "updated_at": "2025-09-04T18:44:24Z",
-    "hash": "db117f24a9f0a4a73ee601ea85a9b8cdabe3204bfc88b5e8a7e75fe1e7974124",
-    "file_path": "data/markdown/getting-started-with-an-optisigns-free-trial.md"
   }
 }
