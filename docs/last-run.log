@@ -42,33 +42,18 @@ Manifest file: data/state/articles_manifest.json
 
 Step 2: Delta summary...
 Articles discovered: 30
-Added: 1
-Updated: 2
-Skipped: 27
+Added: 0
+Updated: 0
+Skipped: 30
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
-Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/referearnoptisignsreferralp-f3tk74d4zski
-Uploaded to Gemini File Search: refer-earn-optisigns-referral-program.md
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtouseyoutubewithoptisign-bd72l9vtlft0
-Uploaded to Gemini File Search: how-to-use-youtube-with-optisigns.md
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/roomintegrationsturnyourmee-orafcybxuxbq
-Uploaded to Gemini File Search: room-integrations-turn-your-meeting-rooms-into-digital-signage.md
-
-Gemini upload completed.
-File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Markdown files found: 33
-Markdown delta files considered: 3
-Uploaded files: 3
-Skipped files: 0
-Estimated chunks embedded: 6
-Gemini upload manifest: data/state/gemini_upload_manifest.json
+No Markdown delta files to upload to Gemini.
 
 Job completed successfully.
 Articles discovered: 30
-Added: 1
-Updated: 2
-Skipped: 27
-Uploaded to Gemini: 3
+Added: 0
+Updated: 0
+Skipped: 30
+Uploaded to Gemini: 0
 Gemini skipped uploads: 0
-Estimated chunks embedded: 6
+Estimated chunks embedded: 0
