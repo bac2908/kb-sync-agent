@@ -184,5 +184,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/roomintegrationsturnyourmee-orafcybxuxbq",
     "estimated_chunks": 3,
     "hash": "22c9d43d304d9bfa6ea93d087224eee17e045cee8ffeb278281d7aa70a3612a3"
+  },
+  "data/markdown/device-management-and-mass-provisioning.md": {
+    "file_name": "device-management-and-mass-provisioning.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/devicemanagementandmassprov-qraaw8j48cgq",
+    "estimated_chunks": 5,
+    "hash": "26d2817b5924ceef95b5c096174883e3b81146a8deeaf2ff87335fd7f0d0df2b"
   }
 }

@@ -6,6 +6,13 @@
     "hash": "6f6500034642af1e7f80420f46f6ce6cbfbd109cc2c688cafd731fb3d9f8f499",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/53497007807251-Device-Management-and-Mass-Provisioning": {
+    "title": "Device Management and Mass Provisioning",
+    "slug": "device-management-and-mass-provisioning",
+    "updated_at": "2026-07-16T16:39:52Z",
+    "hash": "26d2817b5924ceef95b5c096174883e3b81146a8deeaf2ff87335fd7f0d0df2b",
+    "file_path": "data/markdown/device-management-and-mass-provisioning.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/53293393593491-Refer-Earn-OptiSigns-Referral-Program": {
     "title": "Refer & Earn: OptiSigns Referral Program",
     "slug": "refer-earn-optisigns-referral-program",
@@ -201,12 +208,5 @@
     "updated_at": "2025-08-28T18:42:06Z",
     "hash": "14523b53736532bedfb73c897f4466db641a23510a9bf3b9393406a7eb9c7621",
     "file_path": "data/markdown/handle-oauth-authentication-using-api-gateway-pre-request-configuration.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/38062664690195-Tagging-in-OptiSigns": {
-    "title": "Tagging in OptiSigns",
-    "slug": "tagging-in-optisigns",
-    "updated_at": "2025-09-09T19:34:07Z",
-    "hash": "ae590facceae78bf47d17e97bba24db63ac09df4103d3e84e63bf7266d2cab91",
-    "file_path": "data/markdown/tagging-in-optisigns.md"
   }
 }
