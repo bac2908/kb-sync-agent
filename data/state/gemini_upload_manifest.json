@@ -190,5 +190,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/devicemanagementandmassprov-qraaw8j48cgq",
     "estimated_chunks": 5,
     "hash": "26d2817b5924ceef95b5c096174883e3b81146a8deeaf2ff87335fd7f0d0df2b"
+  },
+  "data/markdown/connect-zoom-rooms-to-optisigns-digital-signage.md": {
+    "file_name": "connect-zoom-rooms-to-optisigns-digital-signage.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectzoomroomstooptisigns-a9j9qxgekbk2",
+    "estimated_chunks": 4,
+    "hash": "4f444359a7683c646b5ada5c5c2cbb90546ae65e7578f8a0c05214c4f1d52dec"
   }
 }

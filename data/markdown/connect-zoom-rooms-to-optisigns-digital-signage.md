@@ -162,7 +162,7 @@ Disconnecting releases all OptiSigns screen licenses currently consumed by Zoom 
 
 ## Pricing
 
-OptiSigns Zoom Rooms integration uses a screen license, same as any other device on your account. Free trial available — you're only billed once you activate signage on a room. [See full pricing ](<https://www.optisigns.com/pricing>)
+OptiSigns Zoom Rooms integration uses a screen license, same as any other device on your account. Free trial available — you're only billed once you activate signage on a room. [See full pricing](<https://www.optisigns.com/pricing>)
 
 * * *
 
