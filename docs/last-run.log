@@ -43,28 +43,17 @@ Manifest file: data/state/articles_manifest.json
 Step 2: Delta summary...
 Articles discovered: 30
 Added: 0
-Updated: 1
-Skipped: 29
+Updated: 0
+Skipped: 30
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
-Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectzoomroomstooptisigns-a9j9qxgekbk2
-Uploaded to Gemini File Search: connect-zoom-rooms-to-optisigns-digital-signage.md
-
-Gemini upload completed.
-File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Markdown files found: 34
-Markdown delta files considered: 1
-Uploaded files: 1
-Skipped files: 0
-Estimated chunks embedded: 4
-Gemini upload manifest: data/state/gemini_upload_manifest.json
+No Markdown delta files to upload to Gemini.
 
 Job completed successfully.
 Articles discovered: 30
 Added: 0
-Updated: 1
-Skipped: 29
-Uploaded to Gemini: 1
+Updated: 0
+Skipped: 30
+Uploaded to Gemini: 0
 Gemini skipped uploads: 0
-Estimated chunks embedded: 4
+Estimated chunks embedded: 0
