@@ -6,6 +6,13 @@
     "hash": "6f6500034642af1e7f80420f46f6ce6cbfbd109cc2c688cafd731fb3d9f8f499",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/53952018650515-How-to-Display-Databricks-Dashboards-on-OptiSigns": {
+    "title": "How to Display Databricks Dashboards on OptiSigns",
+    "slug": "how-to-display-databricks-dashboards-on-optisigns",
+    "updated_at": "2026-08-04T17:57:34Z",
+    "hash": "08a04d7916dae9d5bd76a1edc60af4fa1cf05b4b9102c1144c6fa22ddae5b7d7",
+    "file_path": "data/markdown/how-to-display-databricks-dashboards-on-optisigns.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/53497007807251-Device-Management-and-Mass-Provisioning": {
     "title": "Device Management and Mass Provisioning",
     "slug": "device-management-and-mass-provisioning",
@@ -201,12 +208,5 @@
     "updated_at": "2026-01-06T22:36:49Z",
     "hash": "415f4aa7ecf2a68827c6b1a3bcfc7befd12f47f9d16120a722aaa2c3e57eddf8",
     "file_path": "data/markdown/how-to-use-the-tableau-app.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/39080869746067-Handle-OAuth-Authentication-using-API-Gateway-Pre-request-Configuration": {
-    "title": "Handle OAuth Authentication using API Gateway Pre-request Configuration",
-    "slug": "handle-oauth-authentication-using-api-gateway-pre-request-configuration",
-    "updated_at": "2026-07-28T20:42:44Z",
-    "hash": "14523b53736532bedfb73c897f4466db641a23510a9bf3b9393406a7eb9c7621",
-    "file_path": "data/markdown/handle-oauth-authentication-using-api-gateway-pre-request-configuration.md"
   }
 }

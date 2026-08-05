@@ -196,5 +196,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectzoomroomstooptisigns-a9j9qxgekbk2",
     "estimated_chunks": 4,
     "hash": "4f444359a7683c646b5ada5c5c2cbb90546ae65e7578f8a0c05214c4f1d52dec"
+  },
+  "data/markdown/how-to-display-databricks-dashboards-on-optisigns.md": {
+    "file_name": "how-to-display-databricks-dashboards-on-optisigns.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatabricksdashb-awwff1hcmz0u",
+    "estimated_chunks": 4,
+    "hash": "08a04d7916dae9d5bd76a1edc60af4fa1cf05b4b9102c1144c6fa22ddae5b7d7"
   }
 }
