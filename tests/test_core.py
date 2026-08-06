@@ -3,7 +3,7 @@ import unittest
 from src.cleaner import clean_html, html_to_markdown
 from src.delta import calculate_delta, summarize_delta
 from src.gemini_uploader import estimate_chunks
-from src.scraper import article_to_markdown, slugify
+from src.scraper import article_to_markdown, ensure_unique_slug, slugify
 
 
 class CorePipelineTests(unittest.TestCase):
@@ -13,8 +13,24 @@ class CorePipelineTests(unittest.TestCase):
             "how-to-add-a-youtube-video",
         )
 
+    def test_duplicate_slug_gets_stable_article_id_suffix(self):
+        item = {
+            "article_id": "42",
+            "url": "https://example.com/articles/42",
+            "slug": "same-title",
+            "file_path": "data/markdown/same-title.md",
+        }
+
+        unique_item = ensure_unique_slug(item, {"same-title"})
+
+        self.assertEqual(unique_item["slug"], "same-title-42")
+        self.assertTrue(unique_item["file_path"].endswith("same-title-42.md"))
+
     def test_cleaner_removes_scripts_and_preserves_links(self):
-        html = '<div><script>alert("x")</script><h2>Steps</h2><a href="/help">Help</a></div>'
+        html = (
+            '<div><script>alert("x")</script><h2>Steps</h2>'
+            '<a href="/help">Help</a></div>'
+        )
         markdown = html_to_markdown(clean_html(html))
 
         self.assertIn("## Steps", markdown)
@@ -48,8 +64,21 @@ class CorePipelineTests(unittest.TestCase):
 
         self.assertEqual(
             summarize_delta(calculate_delta(previous, current)),
-            {"added": 1, "updated": 1, "skipped": 1},
+            {"added": 1, "updated": 1, "removed": 0, "skipped": 1},
         )
+
+    def test_delta_detects_removed_article(self):
+        previous = {
+            "https://example.com/removed": {
+                "hash": "old",
+                "file_path": "data/markdown/removed.md",
+            }
+        }
+
+        delta = calculate_delta(previous, [])
+
+        self.assertEqual(delta["removed"][0]["url"], "https://example.com/removed")
+        self.assertEqual(summarize_delta(delta)["removed"], 1)
 
     def test_chunk_estimate_has_overlap(self):
         text = "word " * 700

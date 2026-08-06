@@ -1,57 +1,41 @@
-# Submission Checklist
+# Portfolio handoff checklist
 
-## Must Submit
+## Repository quality
 
-- GitHub repo with a cryptic name that does not include `optisigns`.
-- `.env.sample`, no real keys committed.
-- `Dockerfile` that runs `main.py` once and exits successfully.
-- `README.md` with setup, local run, Docker run, daily job notes, and screenshot.
-- `docs/screenshots/youtube-answer.png`.
-- Daily job log link or artifact.
+- [x] `.env` and local databases are ignored.
+- [x] Runtime and development dependencies are pinned.
+- [x] Ruff passes with the checked-in configuration.
+- [x] Unit, API, and failure-path tests pass.
+- [x] Synthetic evaluation cases pass reproducibly.
+- [x] Pull requests and pushes run CI.
 
-## Current Project Status
+## Product demonstration
 
-- Scrape and Markdown: done, `data/markdown` has 30+ files.
-- API-based Gemini File Search upload: done.
-- Assistant sanity check with cited URL: done.
-- `main.py` daily sync with delta logs: done.
-- Dockerfile: done.
-- GitHub Actions daily workflow: ready in `.github/workflows/daily-sync.yml`.
-- Hosted daily job run URL: done in `docs/deployment.md`.
+- [x] Knowledge is synchronized from a paginated REST API.
+- [x] Changed content is uploaded through a RAG indexing provider.
+- [x] Failed upload does not advance the source manifest.
+- [x] AI answers are evaluated against the exact retrieved evidence.
+- [x] Outputs missing citations or using unsafe certainty language are blocked.
+- [x] A reviewer can approve or reject non-blocked outputs through REST APIs.
+- [x] PostgreSQL deployment is defined with Docker Compose.
 
-## Before Pushing
+## Responsible healthcare framing
 
-The current parent Git root appears to be `D:/`, so create a clean repo from this folder only:
+- [x] No patient data or real oncology result is checked in.
+- [x] Synthetic case IDs are used throughout examples.
+- [x] Automated checks are explicitly separated from clinical correctness.
+- [x] Blocked outputs cannot be approved through the API.
+- [x] Limitations and pre-production requirements are documented.
 
-```bash
-cd D:/kb-sync-agent
-git init
-git add .
-git commit -m "init kb sync agent"
-```
+## Before sharing with an interviewer
 
-Then create a GitHub repo with a name like:
+1. Start Docker Desktop and run `docker compose up --build`.
+2. Open `http://localhost:8000/docs` and rehearse the workflow in
+   `docs/jd-alignment.md`.
+3. Run `python -m ruff check .` and
+   `python -m unittest discover -s tests -v`.
+4. Confirm that no local `.env`, database, or credential is staged.
+5. Replace screenshots only if they show the current API and contain no secrets.
 
-```text
-kb-sync-agent
-doc-sync-worker
-support-kb-sync
-```
-
-Avoid names containing:
-
-```text
-optisigns
-optibot
-```
-
-## GitHub Actions Secrets
-
-After pushing, add these repository secrets:
-
-```env
-GEMINI_API_KEY=...
-GEMINI_FILE_SEARCH_STORE_NAME=fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-```
-
-Run `Daily KB Sync` manually once and copy the run URL into `docs/deployment.md`.
+The old OptiSigns screenshot and daily-run log remain as evidence of the original
+public-corpus RAG pipeline. They are not clinical product evidence.

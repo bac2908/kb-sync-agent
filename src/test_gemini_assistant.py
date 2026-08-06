@@ -16,7 +16,8 @@ def get_api_key() -> str:
     )
     if not api_key:
         raise ValueError(
-            "GEMINI_API_KEY is missing. Create one at https://aistudio.google.com/apikey "
+            "GEMINI_API_KEY is missing. Create one at "
+            "https://aistudio.google.com/apikey "
             "and set GEMINI_API_KEY or API_KEY."
         )
     return api_key

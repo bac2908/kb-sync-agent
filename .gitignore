@@ -5,5 +5,8 @@ tmp/
 .pytest_cache/
 .mypy_cache/
 .ruff_cache/
+*.db
+*.db-journal
+*.sqlite3
 venv/
 .venv/

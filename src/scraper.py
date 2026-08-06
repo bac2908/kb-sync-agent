@@ -1,9 +1,10 @@
 import hashlib
 import json
 import re
-from typing import Dict, List, Optional
 
 import requests
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 from src.cleaner import clean_html, html_to_markdown
 from src.config import (
@@ -15,8 +16,28 @@ from src.config import (
     STATE_DIR,
 )
 
-
 MANIFEST_PATH = ARTICLES_MANIFEST_PATH
+
+
+def create_http_session() -> requests.Session:
+    retry = Retry(
+        total=3,
+        connect=3,
+        read=3,
+        status=3,
+        backoff_factor=0.5,
+        status_forcelist=(429, 500, 502, 503, 504),
+        allowed_methods=frozenset({"GET"}),
+        respect_retry_after_header=True,
+    )
+    adapter = HTTPAdapter(max_retries=retry)
+    session = requests.Session()
+    session.mount("https://", adapter)
+    session.mount("http://", adapter)
+    return session
+
+
+HTTP_SESSION = create_http_session()
 
 
 def slugify(text: str) -> str:
@@ -34,22 +55,22 @@ def calculate_hash(content: str) -> str:
     return hashlib.sha256(content.encode("utf-8")).hexdigest()
 
 
-def fetch_article_by_id(article_id: str) -> Dict:
+def fetch_article_by_id(article_id: str) -> dict:
     url = ARTICLE_API_URL_TEMPLATE.format(article_id=article_id)
     print(f"Fetching pinned article: {url}")
-    response = requests.get(url, timeout=30)
+    response = HTTP_SESSION.get(url, timeout=30)
     response.raise_for_status()
     return response.json()["article"]
 
 
-def fetch_articles(limit: int = 30) -> List[Dict]:
+def fetch_articles(limit: int = 30) -> list[dict]:
     """
     Fetch articles from Zendesk Help Center API.
     Handles pagination until enough articles are collected.
     """
     articles = []
     seen_article_ids = set()
-    url: Optional[str] = f"{BASE_API_URL}?per_page=100"
+    url: str | None = f"{BASE_API_URL}?per_page=100"
 
     for article_id in PINNED_ARTICLE_IDS:
         article = fetch_article_by_id(article_id)
@@ -58,7 +79,7 @@ def fetch_articles(limit: int = 30) -> List[Dict]:
 
     while url and len(articles) < limit:
         print(f"Fetching: {url}")
-        response = requests.get(url, timeout=30)
+        response = HTTP_SESSION.get(url, timeout=30)
         response.raise_for_status()
 
         data = response.json()
@@ -79,7 +100,7 @@ def fetch_articles(limit: int = 30) -> List[Dict]:
     return articles[:limit]
 
 
-def article_to_markdown(article: Dict) -> Dict:
+def article_to_markdown(article: dict) -> dict:
     """
     Convert one Zendesk article dict to Markdown content and metadata.
     """
@@ -104,6 +125,7 @@ Article URL: {url}
     content_hash = calculate_hash(markdown)
 
     return {
+        "article_id": str(article.get("id", "")),
         "title": title,
         "url": url,
         "slug": slug,
@@ -114,18 +136,33 @@ Article URL: {url}
     }
 
 
-def save_markdown_file(item: Dict) -> None:
+def save_markdown_file(item: dict) -> None:
     MARKDOWN_DIR.mkdir(parents=True, exist_ok=True)
     path = MARKDOWN_DIR / f"{item['slug']}.md"
     path.write_text(item["markdown"], encoding="utf-8")
 
 
-def save_manifest(items: List[Dict]) -> None:
+def ensure_unique_slug(item: dict, used_slugs: set[str]) -> dict:
+    """Keep same-title articles from overwriting each other on disk."""
+    if item["slug"] not in used_slugs:
+        used_slugs.add(item["slug"])
+        return item
+
+    suffix = item.get("article_id") or calculate_hash(item["url"])[:8]
+    unique_item = dict(item)
+    unique_item["slug"] = f"{item['slug']}-{suffix}"
+    unique_item["file_path"] = str(MARKDOWN_DIR / f"{unique_item['slug']}.md")
+    used_slugs.add(unique_item["slug"])
+    return unique_item
+
+
+def save_manifest(items: list[dict]) -> None:
     STATE_DIR.mkdir(parents=True, exist_ok=True)
 
     manifest = {}
     for item in items:
         manifest[item["url"]] = {
+            "article_id": item.get("article_id", ""),
             "title": item["title"],
             "slug": item["slug"],
             "updated_at": item["updated_at"],
@@ -133,13 +170,18 @@ def save_manifest(items: List[Dict]) -> None:
             "file_path": item["file_path"],
         }
 
-    MANIFEST_PATH.write_text(
+    temporary_path = MANIFEST_PATH.with_suffix(".json.tmp")
+    temporary_path.write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
+    temporary_path.replace(MANIFEST_PATH)
 
 
-def scrape_to_markdown(limit: int = 30) -> List[Dict]:
+def scrape_to_markdown(
+    limit: int = 30,
+    persist_manifest: bool = True,
+) -> list[dict]:
     """
     Main function for Step 3:
     - fetch articles
@@ -149,21 +191,27 @@ def scrape_to_markdown(limit: int = 30) -> List[Dict]:
     """
     raw_articles = fetch_articles(limit=limit)
     processed_items = []
+    used_slugs: set[str] = set()
 
     for article in raw_articles:
         item = article_to_markdown(article)
+        item = ensure_unique_slug(item, used_slugs)
         save_markdown_file(item)
         processed_items.append(item)
 
         print(f"Saved: {item['file_path']}")
 
-    save_manifest(processed_items)
+    if persist_manifest:
+        save_manifest(processed_items)
 
     print()
     print("Scrape completed.")
     print(f"Articles saved: {len(processed_items)}")
     print(f"Markdown folder: {MARKDOWN_DIR}")
-    print(f"Manifest file: {MANIFEST_PATH}")
+    if persist_manifest:
+        print(f"Manifest file: {MANIFEST_PATH}")
+    else:
+        print("Manifest commit deferred until upload succeeds.")
 
     return processed_items
 

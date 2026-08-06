@@ -1,6 +1,5 @@
 from pathlib import Path
 
-
 BASE_API_URL = "https://support.optisigns.com/api/v2/help_center/en-us/articles.json"
 ARTICLE_API_URL_TEMPLATE = (
     "https://support.optisigns.com/api/v2/help_center/en-us/articles/{article_id}.json"

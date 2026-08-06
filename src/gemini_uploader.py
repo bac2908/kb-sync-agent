@@ -1,9 +1,9 @@
+import hashlib
 import json
 import os
 import time
-import hashlib
+from collections.abc import Iterable
 from pathlib import Path
-from typing import Dict, Iterable, List, Optional
 
 from dotenv import load_dotenv
 from google import genai
@@ -19,22 +19,24 @@ from src.config import (
 )
 
 
-def load_upload_manifest() -> Dict:
+def load_upload_manifest() -> dict:
     if not GEMINI_UPLOAD_MANIFEST_PATH.exists():
         return {}
 
     return json.loads(GEMINI_UPLOAD_MANIFEST_PATH.read_text(encoding="utf-8"))
 
 
-def save_upload_manifest(manifest: Dict) -> None:
+def save_upload_manifest(manifest: dict) -> None:
     STATE_DIR.mkdir(parents=True, exist_ok=True)
-    GEMINI_UPLOAD_MANIFEST_PATH.write_text(
+    temporary_path = GEMINI_UPLOAD_MANIFEST_PATH.with_suffix(".json.tmp")
+    temporary_path.write_text(
         json.dumps(manifest, indent=2, ensure_ascii=False),
         encoding="utf-8",
     )
+    temporary_path.replace(GEMINI_UPLOAD_MANIFEST_PATH)
 
 
-def get_markdown_files() -> List[Path]:
+def get_markdown_files() -> list[Path]:
     files = sorted(MARKDOWN_DIR.glob("*.md"))
     if not files:
         raise FileNotFoundError(
@@ -71,7 +73,8 @@ def get_api_key() -> str:
     )
     if not api_key:
         raise ValueError(
-            "GEMINI_API_KEY is missing. Create one at https://aistudio.google.com/apikey "
+            "GEMINI_API_KEY is missing. Create one at "
+            "https://aistudio.google.com/apikey "
             "and set GEMINI_API_KEY or API_KEY."
         )
     return api_key
@@ -83,8 +86,8 @@ def create_client() -> genai.Client:
 
 def create_file_search_store_if_needed(
     client: genai.Client,
-    current_store_name: Optional[str],
-    upload_manifest: Optional[Dict] = None,
+    current_store_name: str | None,
+    upload_manifest: dict | None = None,
 ) -> str:
     if current_store_name:
         print(f"Using existing Gemini file search store: {current_store_name}")
@@ -95,7 +98,9 @@ def create_file_search_store_if_needed(
         print(f"Using Gemini file search store from manifest: {manifest_store_name}")
         return manifest_store_name
 
-    embedding_model = os.getenv("GEMINI_EMBEDDING_MODEL", GEMINI_DEFAULT_EMBEDDING_MODEL)
+    embedding_model = os.getenv(
+        "GEMINI_EMBEDDING_MODEL", GEMINI_DEFAULT_EMBEDDING_MODEL
+    )
     file_search_store = client.file_search_stores.create(
         config={
             "display_name": GEMINI_FILE_SEARCH_STORE_DISPLAY_NAME,
@@ -111,11 +116,19 @@ def wait_for_operation(client: genai.Client, operation, timeout_seconds: int = 3
 
     while not operation.done:
         if time.time() - start > timeout_seconds:
-            raise TimeoutError(f"Timed out waiting for Gemini operation: {operation.name}")
+            raise TimeoutError(
+                f"Timed out waiting for Gemini operation: {operation.name}"
+            )
 
         print(f"Waiting for Gemini indexing operation: {operation.name}")
         time.sleep(5)
         operation = client.operations.get(operation)
+
+    operation_error = getattr(operation, "error", None)
+    if operation_error:
+        raise RuntimeError(
+            f"Gemini indexing operation failed: {operation.name}: {operation_error}"
+        )
 
     return operation
 
@@ -143,9 +156,9 @@ def upload_file_to_file_search_store(
 
 
 def upload_markdown_files_to_gemini(
-    files_to_upload: Optional[Iterable[Path]] = None,
-    file_hashes: Optional[Dict[str, str]] = None,
-) -> Dict:
+    files_to_upload: Iterable[Path] | None = None,
+    file_hashes: dict[str, str] | None = None,
+) -> dict:
     load_dotenv()
 
     all_markdown_files = get_markdown_files()
@@ -159,7 +172,9 @@ def upload_markdown_files_to_gemini(
     if not markdown_files:
         print("No Markdown delta files to upload to Gemini.")
         return {
-            "file_search_store_name": upload_manifest.get("_file_search_store_name", ""),
+            "file_search_store_name": upload_manifest.get(
+                "_file_search_store_name", ""
+            ),
             "files_found": len(all_markdown_files),
             "files_considered": 0,
             "uploaded_files": 0,
@@ -175,6 +190,8 @@ def upload_markdown_files_to_gemini(
         file_search_store_name,
         upload_manifest,
     )
+    upload_manifest["_file_search_store_name"] = file_search_store_name
+    save_upload_manifest(upload_manifest)
 
     uploaded_count = 0
     skipped_count = 0
@@ -183,7 +200,6 @@ def upload_markdown_files_to_gemini(
     for file_path in markdown_files:
         content = file_path.read_text(encoding="utf-8")
         estimated_chunks = estimate_chunks(content)
-        total_estimated_chunks += estimated_chunks
 
         file_key = str(file_path)
         content_hash = (file_hashes or {}).get(file_key, calculate_hash(content))
@@ -192,6 +208,8 @@ def upload_markdown_files_to_gemini(
             print(f"Skipped already uploaded to Gemini: {file_path.name}")
             skipped_count += 1
             continue
+
+        total_estimated_chunks += estimated_chunks
 
         if manifest_item and files_to_upload is None and "hash" not in manifest_item:
             print(f"Skipped already uploaded to Gemini: {file_path.name}")
@@ -210,11 +228,11 @@ def upload_markdown_files_to_gemini(
             "estimated_chunks": estimated_chunks,
             "hash": content_hash,
         }
+        # Persist after every successful operation so a later failure resumes
+        # without uploading already indexed files again.
+        save_upload_manifest(upload_manifest)
         uploaded_count += 1
         print(f"Uploaded to Gemini File Search: {file_path.name}")
-
-    upload_manifest["_file_search_store_name"] = file_search_store_name
-    save_upload_manifest(upload_manifest)
 
     print()
     print("Gemini upload completed.")
