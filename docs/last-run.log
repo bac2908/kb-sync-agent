@@ -5,6 +5,7 @@ Step 1: Scraping articles and converting to Markdown...
 Fetching pinned article: https://support.optisigns.com/api/v2/help_center/en-us/articles/360051014713.json
 Fetching: https://support.optisigns.com/api/v2/help_center/en-us/articles.json?per_page=100
 Saved: data/markdown/how-to-use-youtube-with-optisigns.md
+Saved: data/markdown/optidev-add-on-free-trial-and-pricing.md
 Saved: data/markdown/how-to-display-databricks-dashboards-on-optisigns.md
 Saved: data/markdown/device-management-and-mass-provisioning.md
 Saved: data/markdown/refer-earn-optisigns-referral-program.md
@@ -22,7 +23,6 @@ Saved: data/markdown/how-to-use-the-google-ads-dashboard-app.md
 Saved: data/markdown/how-to-use-the-google-search-console-app.md
 Saved: data/markdown/how-to-use-the-youtube-dashboard-app.md
 Saved: data/markdown/operational-schedule-troubleshooting.md
-Saved: data/markdown/how-to-use-the-optidev-app.md
 Saved: data/markdown/how-to-set-up-an-outlook-calendar-app-with-shared-permissions.md
 Saved: data/markdown/using-an-enterprise-network-802-1x-with-optisigns.md
 Saved: data/markdown/user-management-example-chain-restaurant-or-retail-store-with-multiple-locations.md
@@ -43,28 +43,30 @@ Manifest file: data/state/articles_manifest.json
 Step 2: Delta summary...
 Articles discovered: 30
 Added: 1
-Updated: 0
-Skipped: 29
+Updated: 1
+Skipped: 28
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
 Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatabricksdashb-awwff1hcmz0u
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/optidevaddonfreetrialandpri-6t6n7pw5dfkr
+Uploaded to Gemini File Search: optidev-add-on-free-trial-and-pricing.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatabricksdashb-q30gzcjrse3m
 Uploaded to Gemini File Search: how-to-display-databricks-dashboards-on-optisigns.md
 
 Gemini upload completed.
 File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Markdown files found: 35
-Markdown delta files considered: 1
-Uploaded files: 1
+Markdown files found: 36
+Markdown delta files considered: 2
+Uploaded files: 2
 Skipped files: 0
-Estimated chunks embedded: 4
+Estimated chunks embedded: 8
 Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
 Articles discovered: 30
 Added: 1
-Updated: 0
-Skipped: 29
-Uploaded to Gemini: 1
+Updated: 1
+Skipped: 28
+Uploaded to Gemini: 2
 Gemini skipped uploads: 0
-Estimated chunks embedded: 4
+Estimated chunks embedded: 8

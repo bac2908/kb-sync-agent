@@ -199,8 +199,14 @@
   },
   "data/markdown/how-to-display-databricks-dashboards-on-optisigns.md": {
     "file_name": "how-to-display-databricks-dashboards-on-optisigns.md",
-    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatabricksdashb-awwff1hcmz0u",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatabricksdashb-q30gzcjrse3m",
     "estimated_chunks": 4,
-    "hash": "08a04d7916dae9d5bd76a1edc60af4fa1cf05b4b9102c1144c6fa22ddae5b7d7"
+    "hash": "d6e94d7045f845cf560f5d6e068e0e57255943a3fdd021e2089f47982cf6d249"
+  },
+  "data/markdown/optidev-add-on-free-trial-and-pricing.md": {
+    "file_name": "optidev-add-on-free-trial-and-pricing.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/optidevaddonfreetrialandpri-6t6n7pw5dfkr",
+    "estimated_chunks": 4,
+    "hash": "9f55dbf3dea2b70bd8c236581e577b6b6b7eb7b001a79cb46af9dd660cfa41ac"
   }
 }
