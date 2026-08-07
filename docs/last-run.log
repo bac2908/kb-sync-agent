@@ -38,35 +38,24 @@ Saved: data/markdown/how-to-use-the-tableau-app.md
 Scrape completed.
 Articles saved: 30
 Markdown folder: data/markdown
-Manifest file: data/state/articles_manifest.json
+Manifest commit deferred until upload succeeds.
 
 Step 2: Delta summary...
 Articles discovered: 30
-Added: 1
-Updated: 1
-Skipped: 28
+Added: 0
+Updated: 0
+Removed from source: 0
+Skipped: 30
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
-Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/optidevaddonfreetrialandpri-6t6n7pw5dfkr
-Uploaded to Gemini File Search: optidev-add-on-free-trial-and-pricing.md
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatabricksdashb-q30gzcjrse3m
-Uploaded to Gemini File Search: how-to-display-databricks-dashboards-on-optisigns.md
-
-Gemini upload completed.
-File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Markdown files found: 36
-Markdown delta files considered: 2
-Uploaded files: 2
-Skipped files: 0
-Estimated chunks embedded: 8
-Gemini upload manifest: data/state/gemini_upload_manifest.json
+No Markdown delta files to upload to Gemini.
 
 Job completed successfully.
 Articles discovered: 30
-Added: 1
-Updated: 1
-Skipped: 28
-Uploaded to Gemini: 2
+Added: 0
+Updated: 0
+Removed from source: 0
+Skipped: 30
+Uploaded to Gemini: 0
 Gemini skipped uploads: 0
-Estimated chunks embedded: 8
+Estimated chunks embedded: 0
