@@ -49,8 +49,8 @@ Skipped: 29
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
 Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatabricksdashb-axxvkrzo376o
-Uploaded to Gemini File Search: how-to-display-databricks-dashboards-on-optisigns.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthejapanearthquakeappm-tl6459c42t5m
+Uploaded to Gemini File Search: using-the-japan-earthquake-app.md
 
 Gemini upload completed.
 File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
@@ -58,7 +58,7 @@ Markdown files found: 36
 Markdown delta files considered: 1
 Uploaded files: 1
 Skipped files: 0
-Estimated chunks embedded: 5
+Estimated chunks embedded: 2
 Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
@@ -69,4 +69,4 @@ Removed from source: 0
 Skipped: 29
 Uploaded to Gemini: 1
 Gemini skipped uploads: 0
-Estimated chunks embedded: 5
+Estimated chunks embedded: 2
