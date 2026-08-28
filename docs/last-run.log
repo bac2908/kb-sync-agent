@@ -43,19 +43,30 @@ Manifest commit deferred until upload succeeds.
 Step 2: Delta summary...
 Articles discovered: 30
 Added: 0
-Updated: 0
+Updated: 1
 Removed from source: 0
-Skipped: 30
+Skipped: 29
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
-No Markdown delta files to upload to Gemini.
+Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectmicrosoftteamsroomst-4snaa9ao9ab0
+Uploaded to Gemini File Search: connect-microsoft-teams-rooms-to-optisigns-digital-signage.md
+
+Gemini upload completed.
+File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
+Markdown files found: 36
+Markdown delta files considered: 1
+Uploaded files: 1
+Skipped files: 0
+Estimated chunks embedded: 6
+Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
 Articles discovered: 30
 Added: 0
-Updated: 0
+Updated: 1
 Removed from source: 0
-Skipped: 30
-Uploaded to Gemini: 0
+Skipped: 29
+Uploaded to Gemini: 1
 Gemini skipped uploads: 0
-Estimated chunks embedded: 0
+Estimated chunks embedded: 6

@@ -208,5 +208,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/optidevaddonfreetrialandpri-6t6n7pw5dfkr",
     "estimated_chunks": 4,
     "hash": "9f55dbf3dea2b70bd8c236581e577b6b6b7eb7b001a79cb46af9dd660cfa41ac"
+  },
+  "data/markdown/connect-microsoft-teams-rooms-to-optisigns-digital-signage.md": {
+    "file_name": "connect-microsoft-teams-rooms-to-optisigns-digital-signage.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectmicrosoftteamsroomst-4snaa9ao9ab0",
+    "estimated_chunks": 6,
+    "hash": "3db54d79c0af6dba624a966dd7e0b1a6e244ac08adde054684afa9314f1813aa"
   }
 }

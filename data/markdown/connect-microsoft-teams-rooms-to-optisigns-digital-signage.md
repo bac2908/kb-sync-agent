@@ -42,7 +42,7 @@ When a meeting starts — or someone wakes the room — the display returns to t
 
 In OptiSigns, open **Devices** in the top navigation, then in the left sidebar under **Room Integrations** , click **Teams Rooms**. If you haven't connected yet, you'll see the two methods side by side.
 
-![OptiSigns Teams Rooms — the two ways to connect: Signage URL \(recommended\) and Service Principal](https://support.optisigns.com/hc/article_attachments/52411707887891)
+![OptiSigns Teams Rooms — the two ways to connect: Signage URL \(recommended\) and Service Principal](https://support.optisigns.com/hc/article_attachments/54863307377299)
 
 Pick your method below.
 
@@ -58,7 +58,7 @@ On the **Signage URL** card, click **Mint URLs** (shown above).
 
 In the **New Signage URL** dialog, give the URL a **Name** (for example, your room or location — `Atlanta Lobby`). The optional **Target label** is just a note to help you remember where you'll paste it; it doesn't control anything. Click **Next**.
 
-![The New Signage URL dialog — name the URL, then click Next](https://support.optisigns.com/hc/article_attachments/52411718641811)
+![The New Signage URL dialog — name the URL, then click Next](https://support.optisigns.com/hc/article_attachments/54863298194195)
 
 ### Step 2 — Assign content
 
@@ -66,7 +66,7 @@ Clicking **Next** creates the URL and opens the **Signage URLs** tab (the page n
 
 In the **Assign content** dialog, choose a **Content Type** — **Asset** , **Playlist** , or **Schedule** — then pick the specific item to play. Click **Save**.
 
-![The Assign content dialog — pick a Content Type, choose the item, then Save](https://support.optisigns.com/hc/article_attachments/52411676905875)
+![The Assign content dialog — pick a Content Type, choose the item, then Save](https://support.optisigns.com/hc/article_attachments/54863350797331)
 
 OptiSigns copies the new signage URL to your clipboard and shows the paste instructions. (You can reopen them any time with **Show me how to paste** on the Signage URLs tab.)
 
@@ -79,7 +79,7 @@ In the **Paste your Signage URL in Teams Rooms portal** dialog, click **Open Tea
   3. Choose **Custom URL** , paste the OptiSigns URL, then **Review → Finish**.
   4. Select the new source → **Assign to devices** → pick your Teams Room(s) → **Apply**.
 
-![The paste-instructions dialog — copy the URL, then click Open Teams Admin Portal](https://support.optisigns.com/hc/article_attachments/52411723276051)
+![The paste-instructions dialog — copy the URL, then click Open Teams Admin Portal](https://support.optisigns.com/hc/article_attachments/54863314048403)
 
 Within about 30 seconds the room fetches the URL and your content appears during idle. Start a test meeting — content should clear instantly when the meeting connects.
 
@@ -89,45 +89,100 @@ Within about 30 seconds the room fetches the URL and your content appears during
 
 # Method 2 — Connect with a Service Principal
 
-This connects a **read-only** Microsoft Entra app so OptiSigns can discover and list all your Teams Rooms automatically. (You'll still deliver content with a signage URL — see "Put content on a room" below.)
+This connects a **read-only** Microsoft Entra app so OptiSigns can discover and list all your Teams Rooms automatically — model, online/offline status, and device health — alongside your other screens. (You'll still deliver content with a signage URL — see "Put content on a room" below.)
 
-### Step 1 — Register an app in Microsoft Entra
+> **Do it in this order: register the app → grant admin consent → _then_ connect OptiSigns.** That isn't the intuitive order, and it matters. **Test Connection** validates your credentials, not your permissions, so it can pass on an app that hasn't been consented yet. On top of that, Microsoft caches access tokens for about an hour — connect before consenting and the cached token stays permission-less, so syncing keeps failing for up to an hour after you've actually fixed it. Consent first and you avoid both traps.
 
-  1. Sign in to the [Microsoft Entra admin center](<https://entra.microsoft.com>) as a **Global Administrator**.
-  2. Go to **Identity → Applications → App registrations → + New registration**.
-  3. **Name** it (for example, `OptiSigns Teams Rooms`), choose **single tenant** , and leave **Redirect URI** blank. Click **Register**.
-  4. On the app's **Overview** page, copy the **Application (client) ID** and **Directory (tenant) ID** — you'll paste these into OptiSigns.
+### Step 1 — Register the application
 
-### Step 2 — Grant the Microsoft Graph permissions
+Sign in to the [Microsoft Entra admin center](<https://entra.microsoft.com>) as a **Global Administrator** and go to **Identity → Applications → App registrations → + New registration**.
 
-  1. In the app, open **API permissions → + Add a permission → Microsoft Graph → Application permissions**.
-  2. Add the two read-only scopes OptiSigns requires: **`TeamworkDevice.Read.All`** (reads your Teams Rooms inventory) and **`TeamworkAppSettings.Read.All`** (reads device health — online/offline, peripheral issues). Tip: click **Copy all scopes** on the OptiSigns setup screen and paste them straight into the Entra picker.
-  3. Click **Grant admin consent for <your tenant>**. Both should show **Granted**.
+![Register an application — name the app, choose Single tenant, leave Redirect URI blank, then Register](https://support.optisigns.com/hc/article_attachments/54863314201107)
 
-![OptiSigns Service Principal setup steps and the two required read-only Graph scopes — use Copy all scopes](https://support.optisigns.com/hc/article_attachments/52411718955411)
+  * **Name** — anything you like; pick something a future admin will recognise, for example `OptiSigns Teams Rooms`.
+  * **Supported account types** — **Single tenant**. Your rooms live in your own tenant.
+  * **Redirect URI** — **leave it blank.** This app authenticates service-to-service, so there's no browser redirect.
 
-### Step 3 — Create a client secret
+Click **Register**.
 
-  1. In the app, open **Certificates & secrets → Client secrets → + New client secret**.
-  2. Give it a description and an expiry, then **Add**.
-  3. **Copy the secret Value immediately** — Microsoft only shows it once. If you navigate away you'll have to create a new one.
+### Step 2 — Copy the two IDs
 
-### Step 4 — Connect in OptiSigns
+You land on the app's **Overview** page. Copy these two values — you'll paste them into OptiSigns at the end:
 
-Back on the OptiSigns **Teams Rooms** page, on the **Service Principal** card, click **Add Service Principal**. Paste:
+![The app Overview page with Application \(client\) ID and Directory \(tenant\) ID highlighted](https://support.optisigns.com/hc/article_attachments/54863351234835)
 
-  * **Name** — any label (for example, `Contoso Teams SP`)
-  * **Application (client) ID** — from Step 1
-  * **Directory (tenant) ID** — from Step 1
-  * **Client Secret** — from Step 3
+  * **Application (client) ID**
+  * **Directory (tenant) ID**
 
-Click **Test Connection**. OptiSigns validates the credentials against Microsoft Graph and shows your tenant name on success — then **Save** lights up. Click **Save**.
+Ignore the **Object ID**. OptiSigns doesn't use it, and it's easy to grab by mistake because it sits between the two you do need.
 
-![The Add Service Principal dialog — fill the four fields, then Test Connection before Save](https://support.optisigns.com/hc/article_attachments/52411702980627)
+### Step 3 — Add a permission
+
+In the app's left menu, open **API permissions → + Add a permission**. In the panel that opens, choose **Microsoft Graph**.
+
+![The Request API permissions panel with Microsoft Graph selected](https://support.optisigns.com/hc/article_attachments/54863351394707)
+
+### Step 4 — Application permissions, then TeamworkDevice.Read.All
+
+![Choosing Application permissions, then searching for and ticking TeamworkDevice.Read.All](https://support.optisigns.com/hc/article_attachments/54863299150099)
+
+  1. When Microsoft asks **"What type of permissions does your application require?"** , choose **Application permissions** — **not** Delegated permissions. Delegated means "act as the signed-in user", and there is no signed-in user here: OptiSigns reads your inventory as a background service. Choosing Delegated is the most common mistake, and it fails silently later.
+  2. In the search box, type **`TeamworkDevice.Read.All`**.
+  3. Tick its checkbox. The description reads _Read Teams devices_ , and **Admin consent required** says **Yes** — that matters in the next step.
+  4. Click **Add permissions**.
+
+> `TeamworkDevice.Read.All` is the only required permission. You can optionally add `CrossTenantInformation.ReadBasic.All`, which lets OptiSigns display your tenant's name in the console — everything works without it.
+
+### Step 5 — Adding a permission is not the same as granting it
+
+Your permission is now listed, but look at the **Status** column:
+
+![The permission list showing TeamworkDevice.Read.All with the status Not granted](https://support.optisigns.com/hc/article_attachments/54863338686867)
+
+**⚠ Not granted for <your tenant>.**
+
+The permission has been _requested_ , not _approved_. In this state Microsoft still issues OptiSigns an access token — it simply carries no privileges, so every attempt to read your rooms returns **403 Forbidden**. Nothing about the app registration looks broken; it just doesn't work.
+
+Click **✓ Grant admin consent for <your tenant>** and confirm.
+
+> If that button is greyed out, your account isn't a **Global Administrator** or **Privileged Role Administrator**. You'll need someone who is — an app can't consent to itself.
+
+### Step 6 — Confirm the consent took
+
+Give it a moment, then check the **Status** column again. This is what correct looks like:
+
+![The permission list showing Granted for the tenant, with green check marks](https://support.optisigns.com/hc/article_attachments/54863338849811)
+
+A green banner reading **"Successfully granted admin consent for the requested permissions"** , and `TeamworkDevice.Read.All` showing **Granted for <your tenant>**.
+
+Don't move on until you see it. Consent takes about a minute to propagate.
+
+### Step 7 — Create a client secret
+
+Open **Certificates & secrets → Client secrets → + New client secret**. Give it a description and an expiry, then **Add**.
+
+![The client secret row, with the Value column highlighted next to the Secret ID](https://support.optisigns.com/hc/article_attachments/54863322414227)
+
+Copy the **Value** — the long string in the _Value_ column. **Not** the _Secret ID_ beside it. The two sit side by side and look equally cryptic, and pasting the Secret ID is the second most common mistake here.
+
+> **Microsoft shows the Value once.** Navigate away without copying it and it's gone for good — you'll have to delete the secret and create a new one. Note the expiry date too: when a secret expires the connection stops working, and the fix is a new secret plus a reconnect.
+
+### Step 8 — Connect it in OptiSigns
+
+Back on the OptiSigns **Teams Rooms** page, on the **Service Principal** card, click **Add Service Principal**.
+
+![The Add Microsoft Service Principal dialog filled in, showing Connection successful](https://support.optisigns.com/hc/article_attachments/54863315258387)
+
+Fill in four fields:
+
+  * **Name** — any label you'll recognise (for example, `Contoso Teams SP`)
+  * **Application (client) ID** — from Step 2
+  * **Directory (tenant) ID** — from Step 2
+  * **Client Secret** — the **Value** from Step 7
+
+Click **Test Connection**. OptiSigns validates the credentials against Microsoft Graph and shows **Connection successful** — then **Save** lights up. Click **Save**.
 
 Within a few minutes your Teams Rooms appear in the **Devices** tab, each with its model and live online/offline status.
-
-_[Screenshot to add: the connected**Devices** tab showing "Connected · <tenant> · N rooms synced" and the synced room list — captured once a Microsoft tenant with Teams Rooms is connected.]_
 
 ### Put content on a room
 
@@ -143,11 +198,29 @@ Activating signage on a Teams Room uses **one screen license** from your OptiSig
 
 ## Troubleshooting
 
-**"Test Connection" fails with "Invalid client credentials."** Re-check the Application (client) ID, Directory (tenant) ID, and Client Secret — copy them exactly from the Entra app. If the secret has expired, create a new one in **Certificates & secrets** and paste the new value.
+**My rooms show signage, but OptiSigns lists no devices.** Expected — and it tells you exactly where the problem is. Signage delivery uses the signage URL and never touches Microsoft Graph; device inventory uses the Service Principal and does. Signage working proves nothing about the Service Principal. Go to **Step 5** above and check the **Status** column on the app's API permissions page.
 
-**"Test Connection" fails with a permissions error.** You haven't granted admin consent. In Entra, open the app's **API permissions** , confirm the two Microsoft Graph scopes show **Granted for <tenant>**, then click **Grant admin consent**. Consent changes take about a minute.
+**The sync failed, or the connection shows "Reconnect required".** Behind the scenes Microsoft is returning:
+    
+    
+    403 Forbidden — Missing role permissions on the request.
+    API requires one of 'TeamworkDevice.Read.All, TeamworkDevice.ReadWrite.All'.
+    Roles on the request ''.
+    
 
-**My rooms don't appear after saving the Service Principal.** The first inventory sync can take a few minutes. Click **Sync now** on the Teams Rooms page to refresh. Confirm the app has `TeamworkDevice.Read.All` with admin consent.
+Read that last part — `Roles on the request ''` — as: _the token is valid and it carries no permissions._ Your client ID, tenant ID and secret are all fine. Either admin consent is missing, or the permission was added under **Delegated** instead of **Application**. Fix it in three steps, and do all three:
+
+  1. In Entra, confirm `TeamworkDevice.Read.All` sits under **Application permissions** , then click **Grant admin consent** and wait for the green check.
+  2. In OptiSigns, click **Disconnect** on the Teams Rooms page.
+  3. Click **Add Service Principal** again and re-enter the same three values.
+
+Step 3 isn't optional: a connection that has failed is parked in an errored state, and fixing the permission in Entra doesn't reach back and revive it. Reconnecting is what puts it back to work.
+
+**"Test Connection" passed, but the sync still fails.** Two possibilities. Either consent came _after_ the connection — access tokens are cached for about an hour, so a token minted before consent stays permission-less until it expires; grant consent, reconnect, and if it still fails wait an hour and retry. Or the permission is **Delegated** rather than **Application** — check the **Type** column on the API permissions page; it must read _Application_.
+
+**"Test Connection" fails with "Invalid client credentials."** Re-check the Application (client) ID, Directory (tenant) ID, and Client Secret — copy them exactly from the Entra app, and make sure you copied the secret's **Value** , not its **Secret ID**. If the secret has expired, create a new one in **Certificates & secrets** and paste the new value.
+
+**"No Teams Rooms found in your tenant."** If the connection is healthy — no "Reconnect required" badge and the **Sync now** button is clickable — this means what it says: Microsoft Graph returned zero signage-eligible rooms. In the Teams admin center, confirm you have Teams Rooms devices enrolled and that they carry a **Teams Rooms Pro** license. If the connection shows **Reconnect required** and **Sync now** is greyed out, ignore this message — the sync never ran; see the entry above.
 
 **I pasted the URL but nothing shows on the room.** Confirm the room is **online** and licensed for **Teams Rooms Pro** (Basic doesn't include digital signage). Make sure you pasted the full URL (it begins with `https://`) as a **Custom URL** source, and that the source is **assigned to that device** in the Teams Rooms portal.
 
