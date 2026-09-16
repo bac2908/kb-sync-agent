@@ -214,5 +214,23 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectmicrosoftteamsroomst-4snaa9ao9ab0",
     "estimated_chunks": 6,
     "hash": "3db54d79c0af6dba624a966dd7e0b1a6e244ac08adde054684afa9314f1813aa"
+  },
+  "data/markdown/connect-sharepoint-news-to-optisigns-digital-signage.md": {
+    "file_name": "connect-sharepoint-news-to-optisigns-digital-signage.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectsharepointnewstoopti-ziraotb4en2u",
+    "estimated_chunks": 6,
+    "hash": "8305dc537e67f5f461797a7f0fa87316f38f4db569cf8bd42f8f9bd5ce3b1185"
+  },
+  "data/markdown/how-to-get-a-microsoft-teams-webhook-url-for-optisigns-broadcast.md": {
+    "file_name": "how-to-get-a-microsoft-teams-webhook-url-for-optisigns-broadcast.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtogetamicrosoftteamswebh-00k4vn9wmgek",
+    "estimated_chunks": 2,
+    "hash": "3f14cd7e6097266c61e0ce345a6b2e2f97898397e244e4f04dd5a1aedca3408e"
+  },
+  "data/markdown/broadcast-send-scheduled-snapshots-of-your-dashboards.md": {
+    "file_name": "broadcast-send-scheduled-snapshots-of-your-dashboards.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/broadcastsendscheduledsnaps-m6bsquj19r9n",
+    "estimated_chunks": 4,
+    "hash": "1c12cae06925feede5d6c5ed1a281698456fe33bff97be7d35d9dd160d5eb062"
   }
 }

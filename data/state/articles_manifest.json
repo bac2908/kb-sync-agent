@@ -3,9 +3,33 @@
     "article_id": "360051014713",
     "title": "How to Use YouTube with OptiSigns",
     "slug": "how-to-use-youtube-with-optisigns",
-    "updated_at": "2026-09-10T09:43:28Z",
+    "updated_at": "2026-09-15T09:51:14Z",
     "hash": "2da7d85aa2b3fd34cb3d1aed2d968a8fcd40ffa361c3f7676bf7b4f2c9ad0028",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
+  },
+  "https://support.optisigns.com/hc/en-us/articles/55450681344915-Connect-SharePoint-News-to-OptiSigns-Digital-Signage": {
+    "article_id": "55450681344915",
+    "title": "Connect SharePoint News to OptiSigns Digital Signage",
+    "slug": "connect-sharepoint-news-to-optisigns-digital-signage",
+    "updated_at": "2026-09-15T23:09:01Z",
+    "hash": "8305dc537e67f5f461797a7f0fa87316f38f4db569cf8bd42f8f9bd5ce3b1185",
+    "file_path": "data/markdown/connect-sharepoint-news-to-optisigns-digital-signage.md"
+  },
+  "https://support.optisigns.com/hc/en-us/articles/55416186918163-How-to-Get-a-Microsoft-Teams-Webhook-URL-for-OptiSigns-Broadcast": {
+    "article_id": "55416186918163",
+    "title": "How to Get a Microsoft Teams Webhook URL for OptiSigns Broadcast",
+    "slug": "how-to-get-a-microsoft-teams-webhook-url-for-optisigns-broadcast",
+    "updated_at": "2026-09-15T17:33:06Z",
+    "hash": "3f14cd7e6097266c61e0ce345a6b2e2f97898397e244e4f04dd5a1aedca3408e",
+    "file_path": "data/markdown/how-to-get-a-microsoft-teams-webhook-url-for-optisigns-broadcast.md"
+  },
+  "https://support.optisigns.com/hc/en-us/articles/55416185869331-Broadcast-Send-Scheduled-Snapshots-of-Your-Dashboards": {
+    "article_id": "55416185869331",
+    "title": "Broadcast: Send Scheduled Snapshots of Your Dashboards",
+    "slug": "broadcast-send-scheduled-snapshots-of-your-dashboards",
+    "updated_at": "2026-09-15T15:34:23Z",
+    "hash": "1c12cae06925feede5d6c5ed1a281698456fe33bff97be7d35d9dd160d5eb062",
+    "file_path": "data/markdown/broadcast-send-scheduled-snapshots-of-your-dashboards.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/54095075680275-OptiDev-Add-on-Free-Trial-and-Pricing": {
     "article_id": "54095075680275",
@@ -214,29 +238,5 @@
     "updated_at": "2026-09-10T10:46:32Z",
     "hash": "6e63e859f2137c22fb48e4fb462c501c9c15c50458d0a3e7672a3025e428c2d1",
     "file_path": "data/markdown/disk-encryption.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/40147900639891-OptiStick-Troubleshooting-Guide": {
-    "article_id": "40147900639891",
-    "title": "OptiStick Troubleshooting Guide",
-    "slug": "optistick-troubleshooting-guide",
-    "updated_at": "2026-06-26T13:52:36Z",
-    "hash": "92bef7aac696c5401bb9a2962c3469ec2198983f193fc5b686959cf731b9fbeb",
-    "file_path": "data/markdown/optistick-troubleshooting-guide.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/39488874989587-Fixing-Unexpected-Screen-Rotation-Incorrect-Orientation-with-OptiSigns-Android-Stick": {
-    "article_id": "39488874989587",
-    "title": "Fixing Unexpected Screen Rotation & Incorrect Orientation with OptiSigns Android Stick",
-    "slug": "fixing-unexpected-screen-rotation-incorrect-orientation-with-optisigns-android-stick",
-    "updated_at": "2026-09-10T10:46:30Z",
-    "hash": "76bde96301529b4d19dfa8858a79a7da676baa51ef5bc8459100b6cb4fee45f0",
-    "file_path": "data/markdown/fixing-unexpected-screen-rotation-incorrect-orientation-with-optisigns-android-stick.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/39250660729747-How-to-Use-the-Tableau-App": {
-    "article_id": "39250660729747",
-    "title": "How to Use the Tableau App",
-    "slug": "how-to-use-the-tableau-app",
-    "updated_at": "2026-01-06T22:36:49Z",
-    "hash": "415f4aa7ecf2a68827c6b1a3bcfc7befd12f47f9d16120a722aaa2c3e57eddf8",
-    "file_path": "data/markdown/how-to-use-the-tableau-app.md"
   }
 }
