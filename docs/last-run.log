@@ -42,35 +42,20 @@ Manifest commit deferred until upload succeeds.
 
 Step 2: Delta summary...
 Articles discovered: 30
-Added: 3
+Added: 0
 Updated: 0
-Removed from source: 3
-Skipped: 27
+Removed from source: 0
+Skipped: 30
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
-Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectsharepointnewstoopti-ziraotb4en2u
-Uploaded to Gemini File Search: connect-sharepoint-news-to-optisigns-digital-signage.md
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtogetamicrosoftteamswebh-00k4vn9wmgek
-Uploaded to Gemini File Search: how-to-get-a-microsoft-teams-webhook-url-for-optisigns-broadcast.md
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/broadcastsendscheduledsnaps-m6bsquj19r9n
-Uploaded to Gemini File Search: broadcast-send-scheduled-snapshots-of-your-dashboards.md
-
-Gemini upload completed.
-File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Markdown files found: 39
-Markdown delta files considered: 3
-Uploaded files: 3
-Skipped files: 0
-Estimated chunks embedded: 12
-Gemini upload manifest: data/state/gemini_upload_manifest.json
+No Markdown delta files to upload to Gemini.
 
 Job completed successfully.
 Articles discovered: 30
-Added: 3
+Added: 0
 Updated: 0
-Removed from source: 3
-Skipped: 27
-Uploaded to Gemini: 3
+Removed from source: 0
+Skipped: 30
+Uploaded to Gemini: 0
 Gemini skipped uploads: 0
-Estimated chunks embedded: 12
+Estimated chunks embedded: 0
