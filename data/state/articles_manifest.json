@@ -7,6 +7,14 @@
     "hash": "2da7d85aa2b3fd34cb3d1aed2d968a8fcd40ffa361c3f7676bf7b4f2c9ad0028",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/55640830295187-Using-the-Japan-Transit-App": {
+    "article_id": "55640830295187",
+    "title": "Using the Japan Transit App",
+    "slug": "using-the-japan-transit-app",
+    "updated_at": "2026-09-21T20:41:52Z",
+    "hash": "af62d9e009adc4538d87e19fe7aecd8ae868a6b1dcc948be2e00c55ba696f359",
+    "file_path": "data/markdown/using-the-japan-transit-app.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/55450681344915-Connect-SharePoint-News-to-OptiSigns-Digital-Signage": {
     "article_id": "55450681344915",
     "title": "Connect SharePoint News to OptiSigns Digital Signage",
@@ -230,13 +238,5 @@
     "updated_at": "2026-09-18T13:02:26Z",
     "hash": "599511dd8cf7342544735282cd826bb1b46cf4edc4b13a7fefcb9521e2601474",
     "file_path": "data/markdown/how-to-play-licensed-background-music-on-digital-signs-with-optisound.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/40212027797523-Disk-Encryption": {
-    "article_id": "40212027797523",
-    "title": "Disk Encryption",
-    "slug": "disk-encryption",
-    "updated_at": "2026-09-10T10:46:32Z",
-    "hash": "6e63e859f2137c22fb48e4fb462c501c9c15c50458d0a3e7672a3025e428c2d1",
-    "file_path": "data/markdown/disk-encryption.md"
   }
 }

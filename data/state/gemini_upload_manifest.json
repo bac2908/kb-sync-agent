@@ -232,5 +232,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/broadcastsendscheduledsnaps-m6bsquj19r9n",
     "estimated_chunks": 4,
     "hash": "1c12cae06925feede5d6c5ed1a281698456fe33bff97be7d35d9dd160d5eb062"
+  },
+  "data/markdown/using-the-japan-transit-app.md": {
+    "file_name": "using-the-japan-transit-app.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthejapantransitappmd-cktd32ptaawt",
+    "estimated_chunks": 4,
+    "hash": "af62d9e009adc4538d87e19fe7aecd8ae868a6b1dcc948be2e00c55ba696f359"
   }
 }

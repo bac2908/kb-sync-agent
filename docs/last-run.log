@@ -5,6 +5,7 @@ Step 1: Scraping articles and converting to Markdown...
 Fetching pinned article: https://support.optisigns.com/api/v2/help_center/en-us/articles/360051014713.json
 Fetching: https://support.optisigns.com/api/v2/help_center/en-us/articles.json?per_page=100
 Saved: data/markdown/how-to-use-youtube-with-optisigns.md
+Saved: data/markdown/using-the-japan-transit-app.md
 Saved: data/markdown/connect-sharepoint-news-to-optisigns-digital-signage.md
 Saved: data/markdown/how-to-get-a-microsoft-teams-webhook-url-for-optisigns-broadcast.md
 Saved: data/markdown/broadcast-send-scheduled-snapshots-of-your-dashboards.md
@@ -33,7 +34,6 @@ Saved: data/markdown/getting-started-with-designer.md
 Saved: data/markdown/designer-2-0-new-features.md
 Saved: data/markdown/optisigns-pro-promax-player-troubleshooting-guide.md
 Saved: data/markdown/how-to-play-licensed-background-music-on-digital-signs-with-optisound.md
-Saved: data/markdown/disk-encryption.md
 
 Scrape completed.
 Articles saved: 30
@@ -42,20 +42,31 @@ Manifest commit deferred until upload succeeds.
 
 Step 2: Delta summary...
 Articles discovered: 30
-Added: 0
+Added: 1
 Updated: 0
-Removed from source: 0
-Skipped: 30
+Removed from source: 1
+Skipped: 29
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
-No Markdown delta files to upload to Gemini.
+Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthejapantransitappmd-cktd32ptaawt
+Uploaded to Gemini File Search: using-the-japan-transit-app.md
+
+Gemini upload completed.
+File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
+Markdown files found: 40
+Markdown delta files considered: 1
+Uploaded files: 1
+Skipped files: 0
+Estimated chunks embedded: 4
+Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
 Articles discovered: 30
-Added: 0
+Added: 1
 Updated: 0
-Removed from source: 0
-Skipped: 30
-Uploaded to Gemini: 0
+Removed from source: 1
+Skipped: 29
+Uploaded to Gemini: 1
 Gemini skipped uploads: 0
-Estimated chunks embedded: 0
+Estimated chunks embedded: 4
