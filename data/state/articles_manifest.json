@@ -7,6 +7,14 @@
     "hash": "2da7d85aa2b3fd34cb3d1aed2d968a8fcd40ffa361c3f7676bf7b4f2c9ad0028",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/55669121864979-Using-the-Flight-Schedule-App": {
+    "article_id": "55669121864979",
+    "title": "Using the Flight Schedule App",
+    "slug": "using-the-flight-schedule-app",
+    "updated_at": "2026-09-22T18:59:24Z",
+    "hash": "874c552467daf0ab687d8d022694cf3452516fb867727535638fdbe528fe0589",
+    "file_path": "data/markdown/using-the-flight-schedule-app.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/55640830295187-Using-the-Japan-Transit-App": {
     "article_id": "55640830295187",
     "title": "Using the Japan Transit App",
@@ -22,6 +30,14 @@
     "updated_at": "2026-09-15T23:09:01Z",
     "hash": "8305dc537e67f5f461797a7f0fa87316f38f4db569cf8bd42f8f9bd5ce3b1185",
     "file_path": "data/markdown/connect-sharepoint-news-to-optisigns-digital-signage.md"
+  },
+  "https://support.optisigns.com/hc/en-us/articles/55447693635731-How-to-Display-Grafana-Dashboards-on-OptiSigns": {
+    "article_id": "55447693635731",
+    "title": "How to Display Grafana Dashboards on OptiSigns",
+    "slug": "how-to-display-grafana-dashboards-on-optisigns",
+    "updated_at": "2026-09-22T14:14:49Z",
+    "hash": "4d2a1415eb081b82ead247cdd12029524c037e7d405887f3500fe2bca27eb600",
+    "file_path": "data/markdown/how-to-display-grafana-dashboards-on-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55416186918163-How-to-Get-a-Microsoft-Teams-Webhook-URL-for-OptiSigns-Broadcast": {
     "article_id": "55416186918163",
@@ -222,21 +238,5 @@
     "updated_at": "2026-05-12T14:17:09Z",
     "hash": "a4040dd6a6125220293faf253ec9596cbec0daf0ec46ab75d07b8fef568d327c",
     "file_path": "data/markdown/designer-2-0-new-features.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/40736654972563-OptiSigns-Pro-ProMax-Player-Troubleshooting-Guide": {
-    "article_id": "40736654972563",
-    "title": "OptiSigns Pro/ProMax Player Troubleshooting Guide",
-    "slug": "optisigns-pro-promax-player-troubleshooting-guide",
-    "updated_at": "2026-01-13T21:20:16Z",
-    "hash": "a5c12fce2f52791ffd1d1eed85efd17aa43264af973429011aa4306f5ef4012b",
-    "file_path": "data/markdown/optisigns-pro-promax-player-troubleshooting-guide.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/40671590645651-How-to-Play-Licensed-Background-Music-on-Digital-Signs-with-OptiSound": {
-    "article_id": "40671590645651",
-    "title": "How to Play Licensed Background Music on Digital Signs with OptiSound",
-    "slug": "how-to-play-licensed-background-music-on-digital-signs-with-optisound",
-    "updated_at": "2026-09-18T13:02:26Z",
-    "hash": "599511dd8cf7342544735282cd826bb1b46cf4edc4b13a7fefcb9521e2601474",
-    "file_path": "data/markdown/how-to-play-licensed-background-music-on-digital-signs-with-optisound.md"
   }
 }

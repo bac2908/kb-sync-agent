@@ -238,5 +238,17 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthejapantransitappmd-cktd32ptaawt",
     "estimated_chunks": 4,
     "hash": "af62d9e009adc4538d87e19fe7aecd8ae868a6b1dcc948be2e00c55ba696f359"
+  },
+  "data/markdown/using-the-flight-schedule-app.md": {
+    "file_name": "using-the-flight-schedule-app.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingtheflightscheduleappmd-1kusm86n9qjw",
+    "estimated_chunks": 4,
+    "hash": "874c552467daf0ab687d8d022694cf3452516fb867727535638fdbe528fe0589"
+  },
+  "data/markdown/how-to-display-grafana-dashboards-on-optisigns.md": {
+    "file_name": "how-to-display-grafana-dashboards-on-optisigns.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaygrafanadashboar-2jastbjqscms",
+    "estimated_chunks": 7,
+    "hash": "4d2a1415eb081b82ead247cdd12029524c037e7d405887f3500fe2bca27eb600"
   }
 }
