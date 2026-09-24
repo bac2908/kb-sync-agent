@@ -7,6 +7,14 @@
     "hash": "2da7d85aa2b3fd34cb3d1aed2d968a8fcd40ffa361c3f7676bf7b4f2c9ad0028",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/55709616003219-Using-the-X-Social-App-Add-On": {
+    "article_id": "55709616003219",
+    "title": "Using the X Social App / Add-On",
+    "slug": "using-the-x-social-app-add-on",
+    "updated_at": "2026-09-23T19:58:50Z",
+    "hash": "fb7fcb8e04419b2e9f87d6be797b0a53a0dac1ffce0ba06ea10308b814784cc3",
+    "file_path": "data/markdown/using-the-x-social-app-add-on.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/55669121864979-Using-the-Flight-Schedule-App": {
     "article_id": "55669121864979",
     "title": "Using the Flight Schedule App",
@@ -51,8 +59,8 @@
     "article_id": "55416185869331",
     "title": "Broadcast: Send Scheduled Snapshots of Your Dashboards",
     "slug": "broadcast-send-scheduled-snapshots-of-your-dashboards",
-    "updated_at": "2026-09-15T15:34:23Z",
-    "hash": "1c12cae06925feede5d6c5ed1a281698456fe33bff97be7d35d9dd160d5eb062",
+    "updated_at": "2026-09-23T16:24:51Z",
+    "hash": "7675f9a02830c965817e2b897a38e22f657812b8ad79955fb86ffe3475602fee",
     "file_path": "data/markdown/broadcast-send-scheduled-snapshots-of-your-dashboards.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/54095075680275-OptiDev-Add-on-Free-Trial-and-Pricing": {
@@ -230,13 +238,5 @@
     "updated_at": "2026-09-10T10:46:39Z",
     "hash": "57d4bcc207841e717ccaf79f626d1474145306a56fc4c1f02073b4e63f44ecb4",
     "file_path": "data/markdown/getting-started-with-designer.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/41432385864595-Designer-2-0-New-Features": {
-    "article_id": "41432385864595",
-    "title": "Designer 2.0 New Features",
-    "slug": "designer-2-0-new-features",
-    "updated_at": "2026-05-12T14:17:09Z",
-    "hash": "a4040dd6a6125220293faf253ec9596cbec0daf0ec46ab75d07b8fef568d327c",
-    "file_path": "data/markdown/designer-2-0-new-features.md"
   }
 }

@@ -229,9 +229,9 @@
   },
   "data/markdown/broadcast-send-scheduled-snapshots-of-your-dashboards.md": {
     "file_name": "broadcast-send-scheduled-snapshots-of-your-dashboards.md",
-    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/broadcastsendscheduledsnaps-m6bsquj19r9n",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/broadcastsendscheduledsnaps-n3fj1zu87pl5",
     "estimated_chunks": 4,
-    "hash": "1c12cae06925feede5d6c5ed1a281698456fe33bff97be7d35d9dd160d5eb062"
+    "hash": "7675f9a02830c965817e2b897a38e22f657812b8ad79955fb86ffe3475602fee"
   },
   "data/markdown/using-the-japan-transit-app.md": {
     "file_name": "using-the-japan-transit-app.md",
@@ -250,5 +250,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaygrafanadashboar-2jastbjqscms",
     "estimated_chunks": 7,
     "hash": "4d2a1415eb081b82ead247cdd12029524c037e7d405887f3500fe2bca27eb600"
+  },
+  "data/markdown/using-the-x-social-app-add-on.md": {
+    "file_name": "using-the-x-social-app-add-on.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthexsocialappaddonmd-fiukf8m5abe2",
+    "estimated_chunks": 4,
+    "hash": "fb7fcb8e04419b2e9f87d6be797b0a53a0dac1ffce0ba06ea10308b814784cc3"
   }
 }

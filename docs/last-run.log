@@ -5,6 +5,7 @@ Step 1: Scraping articles and converting to Markdown...
 Fetching pinned article: https://support.optisigns.com/api/v2/help_center/en-us/articles/360051014713.json
 Fetching: https://support.optisigns.com/api/v2/help_center/en-us/articles.json?per_page=100
 Saved: data/markdown/how-to-use-youtube-with-optisigns.md
+Saved: data/markdown/using-the-x-social-app-add-on.md
 Saved: data/markdown/using-the-flight-schedule-app.md
 Saved: data/markdown/using-the-japan-transit-app.md
 Saved: data/markdown/connect-sharepoint-news-to-optisigns-digital-signage.md
@@ -33,7 +34,6 @@ Saved: data/markdown/how-to-set-up-an-outlook-calendar-app-with-shared-permissio
 Saved: data/markdown/using-an-enterprise-network-802-1x-with-optisigns.md
 Saved: data/markdown/user-management-example-chain-restaurant-or-retail-store-with-multiple-locations.md
 Saved: data/markdown/getting-started-with-designer.md
-Saved: data/markdown/designer-2-0-new-features.md
 
 Scrape completed.
 Articles saved: 30
@@ -42,33 +42,33 @@ Manifest commit deferred until upload succeeds.
 
 Step 2: Delta summary...
 Articles discovered: 30
-Added: 2
-Updated: 0
-Removed from source: 2
+Added: 1
+Updated: 1
+Removed from source: 1
 Skipped: 28
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
 Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingtheflightscheduleappmd-1kusm86n9qjw
-Uploaded to Gemini File Search: using-the-flight-schedule-app.md
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaygrafanadashboar-2jastbjqscms
-Uploaded to Gemini File Search: how-to-display-grafana-dashboards-on-optisigns.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthexsocialappaddonmd-fiukf8m5abe2
+Uploaded to Gemini File Search: using-the-x-social-app-add-on.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/broadcastsendscheduledsnaps-n3fj1zu87pl5
+Uploaded to Gemini File Search: broadcast-send-scheduled-snapshots-of-your-dashboards.md
 
 Gemini upload completed.
 File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Markdown files found: 42
+Markdown files found: 43
 Markdown delta files considered: 2
 Uploaded files: 2
 Skipped files: 0
-Estimated chunks embedded: 11
+Estimated chunks embedded: 8
 Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
 Articles discovered: 30
-Added: 2
-Updated: 0
-Removed from source: 2
+Added: 1
+Updated: 1
+Removed from source: 1
 Skipped: 28
 Uploaded to Gemini: 2
 Gemini skipped uploads: 0
-Estimated chunks embedded: 11
+Estimated chunks embedded: 8
