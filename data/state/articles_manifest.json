@@ -3,9 +3,17 @@
     "article_id": "360051014713",
     "title": "How to Use YouTube with OptiSigns",
     "slug": "how-to-use-youtube-with-optisigns",
-    "updated_at": "2026-09-15T09:51:14Z",
-    "hash": "2da7d85aa2b3fd34cb3d1aed2d968a8fcd40ffa361c3f7676bf7b4f2c9ad0028",
+    "updated_at": "2026-09-24T14:52:18Z",
+    "hash": "9e52fb155f095a2625be98f87b3aec8d9e38e3bbb665b4d4a1261f84fa8e1f4c",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
+  },
+  "https://support.optisigns.com/hc/en-us/articles/55719322614803-Inbound-Webhook-DataSources-in-Designer": {
+    "article_id": "55719322614803",
+    "title": "Inbound Webhook DataSources in Designer",
+    "slug": "inbound-webhook-datasources-in-designer",
+    "updated_at": "2026-09-24T17:00:10Z",
+    "hash": "f540c8a135b11c54efa866f0f0caa7533ebed1a5977752bfe4bb416119b5dde4",
+    "file_path": "data/markdown/inbound-webhook-datasources-in-designer.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55709616003219-Using-the-X-Social-App-Add-On": {
     "article_id": "55709616003219",
@@ -230,13 +238,5 @@
     "updated_at": "2025-08-28T19:28:55Z",
     "hash": "094ebb3ea137b8ac40d1b4177036be4113c5222a458d6c32fcd0aad91148b3c4",
     "file_path": "data/markdown/user-management-example-chain-restaurant-or-retail-store-with-multiple-locations.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/42087942047379-Getting-Started-with-Designer": {
-    "article_id": "42087942047379",
-    "title": "Getting Started with Designer",
-    "slug": "getting-started-with-designer",
-    "updated_at": "2026-09-10T10:46:39Z",
-    "hash": "57d4bcc207841e717ccaf79f626d1474145306a56fc4c1f02073b4e63f44ecb4",
-    "file_path": "data/markdown/getting-started-with-designer.md"
   }
 }
