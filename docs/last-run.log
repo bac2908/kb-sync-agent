@@ -42,33 +42,20 @@ Manifest commit deferred until upload succeeds.
 
 Step 2: Delta summary...
 Articles discovered: 30
-Added: 1
-Updated: 1
-Removed from source: 1
-Skipped: 28
+Added: 0
+Updated: 0
+Removed from source: 0
+Skipped: 30
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
-Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/inboundwebhookdatasourcesin-gbyw0kym6w2g
-Uploaded to Gemini File Search: inbound-webhook-datasources-in-designer.md
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtouseyoutubewithoptisign-q7bjuzd7xwwi
-Uploaded to Gemini File Search: how-to-use-youtube-with-optisigns.md
-
-Gemini upload completed.
-File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Markdown files found: 44
-Markdown delta files considered: 2
-Uploaded files: 2
-Skipped files: 0
-Estimated chunks embedded: 9
-Gemini upload manifest: data/state/gemini_upload_manifest.json
+No Markdown delta files to upload to Gemini.
 
 Job completed successfully.
 Articles discovered: 30
-Added: 1
-Updated: 1
-Removed from source: 1
-Skipped: 28
-Uploaded to Gemini: 2
+Added: 0
+Updated: 0
+Removed from source: 0
+Skipped: 30
+Uploaded to Gemini: 0
 Gemini skipped uploads: 0
-Estimated chunks embedded: 9
+Estimated chunks embedded: 0
