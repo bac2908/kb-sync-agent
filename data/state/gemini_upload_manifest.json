@@ -262,5 +262,17 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/inboundwebhookdatasourcesin-gbyw0kym6w2g",
     "estimated_chunks": 6,
     "hash": "f540c8a135b11c54efa866f0f0caa7533ebed1a5977752bfe4bb416119b5dde4"
+  },
+  "data/markdown/how-to-use-the-weather-radar-app.md": {
+    "file_name": "how-to-use-the-weather-radar-app.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtousetheweatherradarappm-xjkqq7t87imw",
+    "estimated_chunks": 3,
+    "hash": "49ffe46a27728218071b1ec6593f31d0d9f1bb9e2215acb18b96c79051e28896"
+  },
+  "data/markdown/how-to-display-salesforce-dashboards-and-reports-on-optisigns.md": {
+    "file_name": "how-to-display-salesforce-dashboards-and-reports-on-optisigns.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaysalesforcedashb-4b1237w73pne",
+    "estimated_chunks": 7,
+    "hash": "ccce24a7925ae6975ef334f3509109d4da652f8d903d570c4431e5530fbc5fcc"
   }
 }

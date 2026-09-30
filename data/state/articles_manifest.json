@@ -7,6 +7,22 @@
     "hash": "9e52fb155f095a2625be98f87b3aec8d9e38e3bbb665b4d4a1261f84fa8e1f4c",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/55906396437523-How-to-Use-the-Weather-Radar-App": {
+    "article_id": "55906396437523",
+    "title": "How to Use the Weather Radar App",
+    "slug": "how-to-use-the-weather-radar-app",
+    "updated_at": "2026-09-29T19:04:57Z",
+    "hash": "49ffe46a27728218071b1ec6593f31d0d9f1bb9e2215acb18b96c79051e28896",
+    "file_path": "data/markdown/how-to-use-the-weather-radar-app.md"
+  },
+  "https://support.optisigns.com/hc/en-us/articles/55895814798739-How-to-Display-Salesforce-Dashboards-and-Reports-on-OptiSigns": {
+    "article_id": "55895814798739",
+    "title": "How to Display Salesforce Dashboards and Reports on OptiSigns",
+    "slug": "how-to-display-salesforce-dashboards-and-reports-on-optisigns",
+    "updated_at": "2026-09-29T19:44:32Z",
+    "hash": "ccce24a7925ae6975ef334f3509109d4da652f8d903d570c4431e5530fbc5fcc",
+    "file_path": "data/markdown/how-to-display-salesforce-dashboards-and-reports-on-optisigns.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/55719322614803-Inbound-Webhook-DataSources-in-Designer": {
     "article_id": "55719322614803",
     "title": "Inbound Webhook DataSources in Designer",
@@ -222,21 +238,5 @@
     "updated_at": "2025-10-17T16:01:18Z",
     "hash": "a9c8a8b1d0fcf945a170e0d56ac002e0dbaa099aa6f79d6c8d233f7a2d67c554",
     "file_path": "data/markdown/how-to-set-up-an-outlook-calendar-app-with-shared-permissions.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/44890229616403-Using-an-Enterprise-Network-802-1x-with-OptiSigns": {
-    "article_id": "44890229616403",
-    "title": "Using an Enterprise Network (802.1x) with OptiSigns",
-    "slug": "using-an-enterprise-network-802-1x-with-optisigns",
-    "updated_at": "2026-05-20T18:11:11Z",
-    "hash": "e100de2eac0b31a6643164c6531cc307f9f402030423ef3f0804dae22b7e4162",
-    "file_path": "data/markdown/using-an-enterprise-network-802-1x-with-optisigns.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/43657735780627-User-Management-Example-Chain-Restaurant-or-Retail-Store-with-Multiple-Locations": {
-    "article_id": "43657735780627",
-    "title": "User Management Example - Chain Restaurant or Retail Store with Multiple Locations",
-    "slug": "user-management-example-chain-restaurant-or-retail-store-with-multiple-locations",
-    "updated_at": "2025-08-28T19:28:55Z",
-    "hash": "094ebb3ea137b8ac40d1b4177036be4113c5222a458d6c32fcd0aad91148b3c4",
-    "file_path": "data/markdown/user-management-example-chain-restaurant-or-retail-store-with-multiple-locations.md"
   }
 }
