@@ -5,6 +5,9 @@ Step 1: Scraping articles and converting to Markdown...
 Fetching pinned article: https://support.optisigns.com/api/v2/help_center/en-us/articles/360051014713.json
 Fetching: https://support.optisigns.com/api/v2/help_center/en-us/articles.json?per_page=100
 Saved: data/markdown/how-to-use-youtube-with-optisigns.md
+Saved: data/markdown/how-to-use-the-eventbrite-events-app.md
+Saved: data/markdown/how-to-use-the-air-quality-index-app.md
+Saved: data/markdown/how-to-display-datadog-dashboards-on-optisigns.md
 Saved: data/markdown/how-to-use-the-weather-radar-app.md
 Saved: data/markdown/how-to-display-salesforce-dashboards-and-reports-on-optisigns.md
 Saved: data/markdown/inbound-webhook-datasources-in-designer.md
@@ -31,9 +34,6 @@ Saved: data/markdown/connect-cisco-webex-rooms-to-optisigns-digital-signage.md
 Saved: data/markdown/chromeos-pwa-instructions.md
 Saved: data/markdown/how-to-use-the-google-ads-dashboard-app.md
 Saved: data/markdown/how-to-use-the-google-search-console-app.md
-Saved: data/markdown/how-to-use-the-youtube-dashboard-app.md
-Saved: data/markdown/operational-schedule-troubleshooting.md
-Saved: data/markdown/how-to-set-up-an-outlook-calendar-app-with-shared-permissions.md
 
 Scrape completed.
 Articles saved: 30
@@ -42,31 +42,37 @@ Manifest commit deferred until upload succeeds.
 
 Step 2: Delta summary...
 Articles discovered: 30
-Added: 0
+Added: 3
 Updated: 1
-Removed from source: 0
-Skipped: 29
+Removed from source: 3
+Skipped: 26
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
 Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/devicemanagementandmassprov-gbkkhl96361q
-Uploaded to Gemini File Search: device-management-and-mass-provisioning.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtousetheeventbriteevents-hpveouhr2s4d
+Uploaded to Gemini File Search: how-to-use-the-eventbrite-events-app.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtousetheairqualityindexa-c5a74sk0bv3m
+Uploaded to Gemini File Search: how-to-use-the-air-quality-index-app.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatadogdashboar-slp7pub35jil
+Uploaded to Gemini File Search: how-to-display-datadog-dashboards-on-optisigns.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaysalesforcedashb-0u3kr811n1f8
+Uploaded to Gemini File Search: how-to-display-salesforce-dashboards-and-reports-on-optisigns.md
 
 Gemini upload completed.
 File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Markdown files found: 46
-Markdown delta files considered: 1
-Uploaded files: 1
+Markdown files found: 49
+Markdown delta files considered: 4
+Uploaded files: 4
 Skipped files: 0
-Estimated chunks embedded: 5
+Estimated chunks embedded: 18
 Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
 Articles discovered: 30
-Added: 0
+Added: 3
 Updated: 1
-Removed from source: 0
-Skipped: 29
-Uploaded to Gemini: 1
+Removed from source: 3
+Skipped: 26
+Uploaded to Gemini: 4
 Gemini skipped uploads: 0
-Estimated chunks embedded: 5
+Estimated chunks embedded: 18

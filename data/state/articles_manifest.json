@@ -7,6 +7,30 @@
     "hash": "9e52fb155f095a2625be98f87b3aec8d9e38e3bbb665b4d4a1261f84fa8e1f4c",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/56498391179667-How-to-Use-the-Eventbrite-Events-App": {
+    "article_id": "56498391179667",
+    "title": "How to Use the Eventbrite Events App",
+    "slug": "how-to-use-the-eventbrite-events-app",
+    "updated_at": "2026-10-16T21:22:00Z",
+    "hash": "8021fd4a4c2e8bed4ff138dcbbec76f068ec9885614f7d51523cf13cc44ac217",
+    "file_path": "data/markdown/how-to-use-the-eventbrite-events-app.md"
+  },
+  "https://support.optisigns.com/hc/en-us/articles/56498363329683-How-to-Use-the-Air-Quality-Index-App": {
+    "article_id": "56498363329683",
+    "title": "How to Use the Air Quality Index App",
+    "slug": "how-to-use-the-air-quality-index-app",
+    "updated_at": "2026-10-16T21:10:49Z",
+    "hash": "40384bf9fb5c522ada4c8809f1811b201343054d0a4b54a34da2a79ac63f17ea",
+    "file_path": "data/markdown/how-to-use-the-air-quality-index-app.md"
+  },
+  "https://support.optisigns.com/hc/en-us/articles/56493703696659-How-to-Display-Datadog-Dashboards-on-OptiSigns": {
+    "article_id": "56493703696659",
+    "title": "How to Display Datadog Dashboards on OptiSigns",
+    "slug": "how-to-display-datadog-dashboards-on-optisigns",
+    "updated_at": "2026-10-16T19:51:56Z",
+    "hash": "3a0acabc6e26701c5fe95d5023a3b71bfa4792faa15152488dc4ed707311d742",
+    "file_path": "data/markdown/how-to-display-datadog-dashboards-on-optisigns.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/55906396437523-How-to-Use-the-Weather-Radar-App": {
     "article_id": "55906396437523",
     "title": "How to Use the Weather Radar App",
@@ -19,8 +43,8 @@
     "article_id": "55895814798739",
     "title": "How to Display Salesforce Dashboards and Reports on OptiSigns",
     "slug": "how-to-display-salesforce-dashboards-and-reports-on-optisigns",
-    "updated_at": "2026-10-12T20:31:04Z",
-    "hash": "a085ac3aebd5bb4f1920f8ec465abafddb1b3df06c2dd5e2596a78be17b45ad6",
+    "updated_at": "2026-10-16T21:20:16Z",
+    "hash": "0a7939bc5b24aff7588a3ccceb037fdcace11e42b084cba06b08e9d3a646dcd2",
     "file_path": "data/markdown/how-to-display-salesforce-dashboards-and-reports-on-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55719322614803-Inbound-Webhook-DataSources-in-Designer": {
@@ -214,29 +238,5 @@
     "updated_at": "2026-02-02T17:56:42Z",
     "hash": "e532ad2b6a4d24bf34d516acdcf1b6403387e9ec4f09702cd95418320dc56187",
     "file_path": "data/markdown/how-to-use-the-google-search-console-app.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/48626115821459-How-to-Use-the-YouTube-Dashboard-App": {
-    "article_id": "48626115821459",
-    "title": "How to Use the YouTube Dashboard App",
-    "slug": "how-to-use-the-youtube-dashboard-app",
-    "updated_at": "2026-02-02T15:32:55Z",
-    "hash": "7e68d2e9d32d0216b8138544529fd8571c1a9b8b0b556734e896eecea04cb882",
-    "file_path": "data/markdown/how-to-use-the-youtube-dashboard-app.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/48241081473043-Operational-Schedule-Troubleshooting": {
-    "article_id": "48241081473043",
-    "title": "Operational Schedule Troubleshooting",
-    "slug": "operational-schedule-troubleshooting",
-    "updated_at": "2026-04-20T21:26:17Z",
-    "hash": "7ebbc97abe507ae522cac17402e97b1afc84f1f67150364f81fba00a72420823",
-    "file_path": "data/markdown/operational-schedule-troubleshooting.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/45619214182803-How-to-Set-Up-an-Outlook-Calendar-App-with-Shared-Permissions": {
-    "article_id": "45619214182803",
-    "title": "How to Set Up an Outlook Calendar App with Shared Permissions",
-    "slug": "how-to-set-up-an-outlook-calendar-app-with-shared-permissions",
-    "updated_at": "2025-10-17T16:01:18Z",
-    "hash": "a9c8a8b1d0fcf945a170e0d56ac002e0dbaa099aa6f79d6c8d233f7a2d67c554",
-    "file_path": "data/markdown/how-to-set-up-an-outlook-calendar-app-with-shared-permissions.md"
   }
 }

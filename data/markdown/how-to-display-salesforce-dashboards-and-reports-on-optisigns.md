@@ -23,16 +23,6 @@ Article URL: https://support.optisigns.com/hc/en-us/articles/55895814798739-How-
   * Create a Salesforce App in OptiSigns
   * How OptiSigns Renders Your Dashboard
   * Frequently Asked Questions
-    * My screen says CRM Analytics required. What does that mean?
-    * My screen says Sign-in required, or Needs reconnecting. What do I do?
-    * My screen says a Salesforce security policy blocked the image. Why?
-    * OptiSigns says Enter a valid My Domain URL. What is wrong?
-    * Sign-in fails with redirect_uri_mismatch on a blank page. How do I fix it?
-    * OptiSigns refused my report when I pressed Save. Why?
-    * Can I connect a sandbox org?
-    * Do I have to use Slack?
-    * My dashboard is showing old numbers. Why?
-    * Will my dashboard data be stored anywhere?
 
 With the Salesforce app, you can display a Salesforce dashboard or report on any OptiSigns screen.
 
@@ -284,8 +274,6 @@ If a refresh fails, the screen keeps the last good picture and shows how long ag
 
 ## Frequently Asked Questions
 
-#### 
-
 #### My screen says "CRM Analytics required." What does that mean?
 
 Salesforce refused to draw the picture for licensing reasons. Your org either does not have a CRM Analytics license, or does not have **Slack for Salesforce** and **CRM Analytics for Slack** enabled. This is a change your Salesforce Administrator has to make. Or switch the app's Display mode to Redraw, which does not need CRM Analytics.
@@ -320,19 +308,19 @@ Or switch the app's Display mode to Redraw, which shows any report as a table, a
 
 #### Can I connect a sandbox org?
 
-Yes. There is nothing extra to switch on — paste the sandbox's own My Domain URL, which looks like `https://yourcompany--sandbox.sandbox.my.salesforce.com`. Salesforce recognises it from the address.
+Yes. There is nothing extra to switch on — paste the sandbox's own My Domain URL, which looks like https://yourcompany--sandbox.sandbox.my.salesforce.com. Salesforce recognises it from the address.
 
 #### Do I have to use Slack?
 
 No. Redraw does not use Slack apps at all. For Salesforce image, Salesforce requires the two Slack apps to be **enabled** in your org because its image service is part of that integration, but nobody needs a Slack account and nothing is posted to Slack.
 
-### My dashboard is showing old numbers. Why?
+#### My dashboard is showing old numbers. Why?
 
 A Salesforce dashboard shows the results from the last time it was run, so OptiSigns asks Salesforce to recalculate it at each update. That request is made by the **Run As** user on your External Client App, so check that one is set — see Set the Run As User.
 
 Reports are not affected: Salesforce runs a report fresh every time it draws one.
 
-### Will my dashboard data be stored anywhere?
+#### Will my dashboard data be stored anywhere?
 
 To load quickly, your screens use a copy stored by OptiSigns. With Salesforce image Display mode, the copy is the picture, kept in OptiSigns' cloud storage. Each app keeps its few most recent pictures, and older ones are deleted automatically. With Redraw, the copy is the chart data, kept for up to 24 hours. Your screens receive only that picture or chart data.
 

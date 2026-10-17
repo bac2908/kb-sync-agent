@@ -271,14 +271,32 @@
   },
   "data/markdown/how-to-display-salesforce-dashboards-and-reports-on-optisigns.md": {
     "file_name": "how-to-display-salesforce-dashboards-and-reports-on-optisigns.md",
-    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaysalesforcedashb-wicne7r1vuxe",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaysalesforcedashb-0u3kr811n1f8",
     "estimated_chunks": 8,
-    "hash": "a085ac3aebd5bb4f1920f8ec465abafddb1b3df06c2dd5e2596a78be17b45ad6"
+    "hash": "0a7939bc5b24aff7588a3ccceb037fdcace11e42b084cba06b08e9d3a646dcd2"
   },
   "data/markdown/chromeos-pwa-instructions.md": {
     "file_name": "chromeos-pwa-instructions.md",
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/chromeospwainstructionsmd-8tjksli75rgz",
     "estimated_chunks": 3,
     "hash": "972353b4e8b569db168626d8538c01a972872b3615dc0d9dd856c5e40d26dd56"
+  },
+  "data/markdown/how-to-use-the-eventbrite-events-app.md": {
+    "file_name": "how-to-use-the-eventbrite-events-app.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtousetheeventbriteevents-hpveouhr2s4d",
+    "estimated_chunks": 3,
+    "hash": "8021fd4a4c2e8bed4ff138dcbbec76f068ec9885614f7d51523cf13cc44ac217"
+  },
+  "data/markdown/how-to-use-the-air-quality-index-app.md": {
+    "file_name": "how-to-use-the-air-quality-index-app.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtousetheairqualityindexa-c5a74sk0bv3m",
+    "estimated_chunks": 3,
+    "hash": "40384bf9fb5c522ada4c8809f1811b201343054d0a4b54a34da2a79ac63f17ea"
+  },
+  "data/markdown/how-to-display-datadog-dashboards-on-optisigns.md": {
+    "file_name": "how-to-display-datadog-dashboards-on-optisigns.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatadogdashboar-slp7pub35jil",
+    "estimated_chunks": 4,
+    "hash": "3a0acabc6e26701c5fe95d5023a3b71bfa4792faa15152488dc4ed707311d742"
   }
 }
