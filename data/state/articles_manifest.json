@@ -7,6 +7,14 @@
     "hash": "9e52fb155f095a2625be98f87b3aec8d9e38e3bbb665b4d4a1261f84fa8e1f4c",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/56946344474003-LG-webOS-Smart-TVs-Consumer-Grade": {
+    "article_id": "56946344474003",
+    "title": "LG webOS Smart TVs (Consumer Grade)",
+    "slug": "lg-webos-smart-tvs-consumer-grade",
+    "updated_at": "2026-10-29T16:54:08Z",
+    "hash": "ab188b178509e5159a611678127ddd7bf2f2cb3a1751097ae910192ce46f22a7",
+    "file_path": "data/markdown/lg-webos-smart-tvs-consumer-grade.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/56498391179667-How-to-Use-the-Eventbrite-Events-App": {
     "article_id": "56498391179667",
     "title": "How to Use the Eventbrite Events App",
@@ -230,13 +238,5 @@
     "updated_at": "2026-02-02T17:54:16Z",
     "hash": "6f5dcc2a96d63b58e0b0755547b18f60ebbfdc58998d1e27fc33773885abc3f1",
     "file_path": "data/markdown/how-to-use-the-google-ads-dashboard-app.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/48656950622227-How-to-Use-the-Google-Search-Console-App": {
-    "article_id": "48656950622227",
-    "title": "How to Use the Google Search Console App",
-    "slug": "how-to-use-the-google-search-console-app",
-    "updated_at": "2026-02-02T17:56:42Z",
-    "hash": "e532ad2b6a4d24bf34d516acdcf1b6403387e9ec4f09702cd95418320dc56187",
-    "file_path": "data/markdown/how-to-use-the-google-search-console-app.md"
   }
 }

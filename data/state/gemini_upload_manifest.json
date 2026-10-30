@@ -298,5 +298,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatadogdashboar-slp7pub35jil",
     "estimated_chunks": 4,
     "hash": "3a0acabc6e26701c5fe95d5023a3b71bfa4792faa15152488dc4ed707311d742"
+  },
+  "data/markdown/lg-webos-smart-tvs-consumer-grade.md": {
+    "file_name": "lg-webos-smart-tvs-consumer-grade.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/lgwebossmarttvsconsumergrad-8lf552sk1juy",
+    "estimated_chunks": 2,
+    "hash": "ab188b178509e5159a611678127ddd7bf2f2cb3a1751097ae910192ce46f22a7"
   }
 }
