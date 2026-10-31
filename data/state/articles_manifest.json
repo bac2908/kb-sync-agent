@@ -3,9 +3,17 @@
     "article_id": "360051014713",
     "title": "How to Use YouTube with OptiSigns",
     "slug": "how-to-use-youtube-with-optisigns",
-    "updated_at": "2026-10-26T13:22:13Z",
-    "hash": "9e52fb155f095a2625be98f87b3aec8d9e38e3bbb665b4d4a1261f84fa8e1f4c",
+    "updated_at": "2026-10-30T20:44:00Z",
+    "hash": "d7ddcf0bd6fbddb1afd79361df5d77b5ed673b56b6174e92ff9baf1106a9e38b",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
+  },
+  "https://support.optisigns.com/hc/en-us/articles/56987330525587-Connect-ChatGPT-Claude-and-Grok-to-OptiSigns-Digital-Signage-with-AI-Connector": {
+    "article_id": "56987330525587",
+    "title": "Connect ChatGPT, Claude and Grok to OptiSigns Digital Signage with AI Connector",
+    "slug": "connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector",
+    "updated_at": "2026-10-30T19:28:50Z",
+    "hash": "dcb7d69273597d16f35f769bfdebb13d67416ef89d78dc48efeffa7698807f3a",
+    "file_path": "data/markdown/connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/56946344474003-LG-webOS-Smart-TVs-Consumer-Grade": {
     "article_id": "56946344474003",
@@ -230,13 +238,5 @@
     "updated_at": "2026-10-14T19:21:13Z",
     "hash": "972353b4e8b569db168626d8538c01a972872b3615dc0d9dd856c5e40d26dd56",
     "file_path": "data/markdown/chromeos-pwa-instructions.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/48751096814995-How-to-Use-the-Google-Ads-Dashboard-App": {
-    "article_id": "48751096814995",
-    "title": "How to Use the Google Ads Dashboard App",
-    "slug": "how-to-use-the-google-ads-dashboard-app",
-    "updated_at": "2026-02-02T17:54:16Z",
-    "hash": "6f5dcc2a96d63b58e0b0755547b18f60ebbfdc58998d1e27fc33773885abc3f1",
-    "file_path": "data/markdown/how-to-use-the-google-ads-dashboard-app.md"
   }
 }

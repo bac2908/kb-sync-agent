@@ -5,6 +5,7 @@ Step 1: Scraping articles and converting to Markdown...
 Fetching pinned article: https://support.optisigns.com/api/v2/help_center/en-us/articles/360051014713.json
 Fetching: https://support.optisigns.com/api/v2/help_center/en-us/articles.json?per_page=100
 Saved: data/markdown/how-to-use-youtube-with-optisigns.md
+Saved: data/markdown/connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md
 Saved: data/markdown/lg-webos-smart-tvs-consumer-grade.md
 Saved: data/markdown/how-to-use-the-eventbrite-events-app.md
 Saved: data/markdown/how-to-use-the-air-quality-index-app.md
@@ -33,7 +34,6 @@ Saved: data/markdown/room-integrations-turn-your-meeting-rooms-into-digital-sign
 Saved: data/markdown/connect-zoom-rooms-to-optisigns-digital-signage.md
 Saved: data/markdown/connect-cisco-webex-rooms-to-optisigns-digital-signage.md
 Saved: data/markdown/chromeos-pwa-instructions.md
-Saved: data/markdown/how-to-use-the-google-ads-dashboard-app.md
 
 Scrape completed.
 Articles saved: 30
@@ -43,30 +43,32 @@ Manifest commit deferred until upload succeeds.
 Step 2: Delta summary...
 Articles discovered: 30
 Added: 1
-Updated: 0
+Updated: 1
 Removed from source: 1
-Skipped: 29
+Skipped: 28
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
 Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/lgwebossmarttvsconsumergrad-8lf552sk1juy
-Uploaded to Gemini File Search: lg-webos-smart-tvs-consumer-grade.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectchatgptclaudeandgrok-1s95dssgodn4
+Uploaded to Gemini File Search: connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtouseyoutubewithoptisign-9khzdfbwpmaa
+Uploaded to Gemini File Search: how-to-use-youtube-with-optisigns.md
 
 Gemini upload completed.
 File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Markdown files found: 50
-Markdown delta files considered: 1
-Uploaded files: 1
+Markdown files found: 51
+Markdown delta files considered: 2
+Uploaded files: 2
 Skipped files: 0
-Estimated chunks embedded: 2
+Estimated chunks embedded: 6
 Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
 Articles discovered: 30
 Added: 1
-Updated: 0
+Updated: 1
 Removed from source: 1
-Skipped: 29
-Uploaded to Gemini: 1
+Skipped: 28
+Uploaded to Gemini: 2
 Gemini skipped uploads: 0
-Estimated chunks embedded: 2
+Estimated chunks embedded: 6

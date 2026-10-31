@@ -175,9 +175,9 @@
   },
   "data/markdown/how-to-use-youtube-with-optisigns.md": {
     "file_name": "how-to-use-youtube-with-optisigns.md",
-    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtouseyoutubewithoptisign-q7bjuzd7xwwi",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtouseyoutubewithoptisign-9khzdfbwpmaa",
     "estimated_chunks": 3,
-    "hash": "9e52fb155f095a2625be98f87b3aec8d9e38e3bbb665b4d4a1261f84fa8e1f4c"
+    "hash": "d7ddcf0bd6fbddb1afd79361df5d77b5ed673b56b6174e92ff9baf1106a9e38b"
   },
   "data/markdown/room-integrations-turn-your-meeting-rooms-into-digital-signage.md": {
     "file_name": "room-integrations-turn-your-meeting-rooms-into-digital-signage.md",
@@ -304,5 +304,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/lgwebossmarttvsconsumergrad-8lf552sk1juy",
     "estimated_chunks": 2,
     "hash": "ab188b178509e5159a611678127ddd7bf2f2cb3a1751097ae910192ce46f22a7"
+  },
+  "data/markdown/connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md": {
+    "file_name": "connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectchatgptclaudeandgrok-1s95dssgodn4",
+    "estimated_chunks": 3,
+    "hash": "dcb7d69273597d16f35f769bfdebb13d67416ef89d78dc48efeffa7698807f3a"
   }
 }
