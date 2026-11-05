@@ -310,5 +310,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectchatgptclaudeandgrok-1s95dssgodn4",
     "estimated_chunks": 3,
     "hash": "dcb7d69273597d16f35f769bfdebb13d67416ef89d78dc48efeffa7698807f3a"
+  },
+  "data/markdown/how-to-use-the-google-ads-dashboard-app.md": {
+    "file_name": "how-to-use-the-google-ads-dashboard-app.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtousethegoogleadsdashboa-m05trjwb7n3t",
+    "estimated_chunks": 2,
+    "hash": "6f5dcc2a96d63b58e0b0755547b18f60ebbfdc58998d1e27fc33773885abc3f1"
   }
 }
