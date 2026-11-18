@@ -316,5 +316,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtousethegoogleadsdashboa-m05trjwb7n3t",
     "estimated_chunks": 2,
     "hash": "6f5dcc2a96d63b58e0b0755547b18f60ebbfdc58998d1e27fc33773885abc3f1"
+  },
+  "data/markdown/the-new-designer-complete-feature-guide.md": {
+    "file_name": "the-new-designer-complete-feature-guide.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/thenewdesignercompletefeatu-6xc7pmxt8if5",
+    "estimated_chunks": 9,
+    "hash": "db3cd76514bf252365eaa76be050f81c1633320106e15f466e0bef0d1a602daa"
   }
 }
