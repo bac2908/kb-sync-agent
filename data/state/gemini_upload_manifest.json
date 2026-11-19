@@ -205,9 +205,9 @@
   },
   "data/markdown/optidev-add-on-free-trial-and-pricing.md": {
     "file_name": "optidev-add-on-free-trial-and-pricing.md",
-    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/optidevaddonfreetrialandpri-6t6n7pw5dfkr",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/optidevaddonfreetrialandpri-wcnoqbm8eok4",
     "estimated_chunks": 4,
-    "hash": "9f55dbf3dea2b70bd8c236581e577b6b6b7eb7b001a79cb46af9dd660cfa41ac"
+    "hash": "5563a934eab905de399b223d944b450825acecabfde49f3181bb7ba46b772f76"
   },
   "data/markdown/connect-microsoft-teams-rooms-to-optisigns-digital-signage.md": {
     "file_name": "connect-microsoft-teams-rooms-to-optisigns-digital-signage.md",
@@ -307,9 +307,9 @@
   },
   "data/markdown/connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md": {
     "file_name": "connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md",
-    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectchatgptclaudeandgrok-1s95dssgodn4",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectchatgptclaudeandgrok-qnwe82lhi3y1",
     "estimated_chunks": 3,
-    "hash": "dcb7d69273597d16f35f769bfdebb13d67416ef89d78dc48efeffa7698807f3a"
+    "hash": "54b3b10fcda01eec7a0944adcf0dd687773c547e66b121a88abd62013ec55d4f"
   },
   "data/markdown/how-to-use-the-google-ads-dashboard-app.md": {
     "file_name": "how-to-use-the-google-ads-dashboard-app.md",
@@ -322,5 +322,11 @@
     "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/thenewdesignercompletefeatu-6xc7pmxt8if5",
     "estimated_chunks": 9,
     "hash": "db3cd76514bf252365eaa76be050f81c1633320106e15f466e0bef0d1a602daa"
+  },
+  "data/markdown/ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector.md": {
+    "file_name": "ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector.md",
+    "operation_name": "fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/aitoolsinoptisignsoptibotai-0sneptqlwiqz",
+    "estimated_chunks": 4,
+    "hash": "eaab31424ad724b758fea4bc5cc5506d1ffede27c3196f0bce364da0e1f8724d"
   }
 }

@@ -43,7 +43,7 @@ This article covers what it costs, what’s included each month, how the 14-day 
 To get started with an OptiDev add-on, you’ll need:
 
   * An OptiSigns account - [**Standard Plan or higher**](<https://www.optisigns.com/pricing>).
-  * Owner or Super Admin permissions.
+  * Owner, Admin or Super Admin permissions.
   * An [OptiSigns-enabled device](<https://support.optisigns.com/hc/en-us/articles/360021855653-What-hardware-and-devices-are-supported>)
   * A screen, [set up and paired with OptiSigns](<https://support.optisigns.com/hc/en-us/articles/18823504383891-OptiSigns-Getting-Started-Guide>)
 

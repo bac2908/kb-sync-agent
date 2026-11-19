@@ -5,6 +5,7 @@ Step 1: Scraping articles and converting to Markdown...
 Fetching pinned article: https://support.optisigns.com/api/v2/help_center/en-us/articles/360051014713.json
 Fetching: https://support.optisigns.com/api/v2/help_center/en-us/articles.json?per_page=100
 Saved: data/markdown/how-to-use-youtube-with-optisigns.md
+Saved: data/markdown/ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector.md
 Saved: data/markdown/the-new-designer-complete-feature-guide.md
 Saved: data/markdown/connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md
 Saved: data/markdown/how-to-use-the-eventbrite-events-app.md
@@ -33,7 +34,6 @@ Saved: data/markdown/connect-microsoft-teams-rooms-to-optisigns-digital-signage.
 Saved: data/markdown/room-integrations-turn-your-meeting-rooms-into-digital-signage.md
 Saved: data/markdown/connect-zoom-rooms-to-optisigns-digital-signage.md
 Saved: data/markdown/connect-cisco-webex-rooms-to-optisigns-digital-signage.md
-Saved: data/markdown/chromeos-pwa-instructions.md
 
 Scrape completed.
 Articles saved: 30
@@ -43,30 +43,34 @@ Manifest commit deferred until upload succeeds.
 Step 2: Delta summary...
 Articles discovered: 30
 Added: 1
-Updated: 0
+Updated: 2
 Removed from source: 1
-Skipped: 29
+Skipped: 27
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
 Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/thenewdesignercompletefeatu-6xc7pmxt8if5
-Uploaded to Gemini File Search: the-new-designer-complete-feature-guide.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/aitoolsinoptisignsoptibotai-0sneptqlwiqz
+Uploaded to Gemini File Search: ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectchatgptclaudeandgrok-qnwe82lhi3y1
+Uploaded to Gemini File Search: connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/optidevaddonfreetrialandpri-wcnoqbm8eok4
+Uploaded to Gemini File Search: optidev-add-on-free-trial-and-pricing.md
 
 Gemini upload completed.
 File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
-Markdown files found: 52
-Markdown delta files considered: 1
-Uploaded files: 1
+Markdown files found: 53
+Markdown delta files considered: 3
+Uploaded files: 3
 Skipped files: 0
-Estimated chunks embedded: 9
+Estimated chunks embedded: 11
 Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
 Articles discovered: 30
 Added: 1
-Updated: 0
+Updated: 2
 Removed from source: 1
-Skipped: 29
-Uploaded to Gemini: 1
+Skipped: 27
+Uploaded to Gemini: 3
 Gemini skipped uploads: 0
-Estimated chunks embedded: 9
+Estimated chunks embedded: 11

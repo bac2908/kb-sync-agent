@@ -7,6 +7,14 @@
     "hash": "d7ddcf0bd6fbddb1afd79361df5d77b5ed673b56b6174e92ff9baf1106a9e38b",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/57688527779219-AI-Tools-in-OptiSigns-OptiBot-AI-Designer-OptiDev-and-the-AI-Connector": {
+    "article_id": "57688527779219",
+    "title": "AI Tools in OptiSigns: OptiBot, AI Designer, OptiDev and the AI Connector",
+    "slug": "ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector",
+    "updated_at": "2026-11-18T18:22:31Z",
+    "hash": "eaab31424ad724b758fea4bc5cc5506d1ffede27c3196f0bce364da0e1f8724d",
+    "file_path": "data/markdown/ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/57645638683411-The-New-Designer-Complete-Feature-Guide": {
     "article_id": "57645638683411",
     "title": "The New Designer: Complete Feature Guide",
@@ -19,8 +27,8 @@
     "article_id": "56987330525587",
     "title": "Connect ChatGPT, Claude and Grok to OptiSigns Digital Signage with AI Connector",
     "slug": "connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector",
-    "updated_at": "2026-10-30T19:28:50Z",
-    "hash": "dcb7d69273597d16f35f769bfdebb13d67416ef89d78dc48efeffa7698807f3a",
+    "updated_at": "2026-11-18T16:34:19Z",
+    "hash": "54b3b10fcda01eec7a0944adcf0dd687773c547e66b121a88abd62013ec55d4f",
     "file_path": "data/markdown/connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/56498391179667-How-to-Use-the-Eventbrite-Events-App": {
@@ -131,8 +139,8 @@
     "article_id": "54095075680275",
     "title": "OptiDev Add-on - Free Trial and Pricing",
     "slug": "optidev-add-on-free-trial-and-pricing",
-    "updated_at": "2026-08-05T18:22:19Z",
-    "hash": "9f55dbf3dea2b70bd8c236581e577b6b6b7eb7b001a79cb46af9dd660cfa41ac",
+    "updated_at": "2026-11-18T17:12:24Z",
+    "hash": "5563a934eab905de399b223d944b450825acecabfde49f3181bb7ba46b772f76",
     "file_path": "data/markdown/optidev-add-on-free-trial-and-pricing.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53952018650515-How-to-Display-Databricks-Dashboards-on-OptiSigns": {
@@ -230,13 +238,5 @@
     "updated_at": "2026-07-01T16:55:46Z",
     "hash": "6fffeeec3edefcbb99d10780f8a3730c3595e3a6c6fc5b6084a02ffa676e71aa",
     "file_path": "data/markdown/connect-cisco-webex-rooms-to-optisigns-digital-signage.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/49039295567891-ChromeOS-PWA-Instructions": {
-    "article_id": "49039295567891",
-    "title": "ChromeOS PWA Instructions",
-    "slug": "chromeos-pwa-instructions",
-    "updated_at": "2026-10-14T19:21:13Z",
-    "hash": "972353b4e8b569db168626d8538c01a972872b3615dc0d9dd856c5e40d26dd56",
-    "file_path": "data/markdown/chromeos-pwa-instructions.md"
   }
 }

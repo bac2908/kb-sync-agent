@@ -37,7 +37,7 @@ The assistant always asks you to confirm before it deletes anything, overwrites 
 
 ## Turn On the AI Connector
 
-The AI Connector is off by default. The account owner or a super admin turns it on once for the whole account.
+The AI Connector is on by default. If it has been turned off, the account owner or a super admin can turn it back on for the whole account.
 
   1. In the [OptiSigns portal](<https://app.optisigns.com>), open your account settings and select **Preferences**.
   2. In the **General** section, check **Enable AI connector (MCP)**.
