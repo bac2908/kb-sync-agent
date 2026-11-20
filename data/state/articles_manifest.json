@@ -7,6 +7,14 @@
     "hash": "d7ddcf0bd6fbddb1afd79361df5d77b5ed673b56b6174e92ff9baf1106a9e38b",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
+  "https://support.optisigns.com/hc/en-us/articles/57730354923923-Billing-Purchase-Orders-Invoices-and-Tax-Exemption": {
+    "article_id": "57730354923923",
+    "title": "Billing: Purchase Orders, Invoices and Tax Exemption",
+    "slug": "billing-purchase-orders-invoices-and-tax-exemption",
+    "updated_at": "2026-11-19T20:27:28Z",
+    "hash": "6c91f8288bb898b522c304ca9c0226ba0238aa3a0b4c28fc23700a42f5eb474a",
+    "file_path": "data/markdown/billing-purchase-orders-invoices-and-tax-exemption.md"
+  },
   "https://support.optisigns.com/hc/en-us/articles/57688527779219-AI-Tools-in-OptiSigns-OptiBot-AI-Designer-OptiDev-and-the-AI-Connector": {
     "article_id": "57688527779219",
     "title": "AI Tools in OptiSigns: OptiBot, AI Designer, OptiDev and the AI Connector",
@@ -75,8 +83,8 @@
     "article_id": "55719322614803",
     "title": "Inbound Webhook DataSources in Designer",
     "slug": "inbound-webhook-datasources-in-designer",
-    "updated_at": "2026-09-24T17:00:10Z",
-    "hash": "f540c8a135b11c54efa866f0f0caa7533ebed1a5977752bfe4bb416119b5dde4",
+    "updated_at": "2026-11-19T22:38:32Z",
+    "hash": "8021a9790afeb38c41a929923c7e35a2db3eb85197c00a81d2e2910912ab285b",
     "file_path": "data/markdown/inbound-webhook-datasources-in-designer.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55709616003219-Using-the-X-Social-App-Add-On": {
@@ -230,13 +238,5 @@
     "updated_at": "2026-07-17T22:17:54Z",
     "hash": "4f444359a7683c646b5ada5c5c2cbb90546ae65e7578f8a0c05214c4f1d52dec",
     "file_path": "data/markdown/connect-zoom-rooms-to-optisigns-digital-signage.md"
-  },
-  "https://support.optisigns.com/hc/en-us/articles/51343184586643-Connect-Cisco-Webex-Rooms-to-OptiSigns-Digital-Signage": {
-    "article_id": "51343184586643",
-    "title": "Connect Cisco Webex Rooms to OptiSigns Digital Signage",
-    "slug": "connect-cisco-webex-rooms-to-optisigns-digital-signage",
-    "updated_at": "2026-07-01T16:55:46Z",
-    "hash": "6fffeeec3edefcbb99d10780f8a3730c3595e3a6c6fc5b6084a02ffa676e71aa",
-    "file_path": "data/markdown/connect-cisco-webex-rooms-to-optisigns-digital-signage.md"
   }
 }
