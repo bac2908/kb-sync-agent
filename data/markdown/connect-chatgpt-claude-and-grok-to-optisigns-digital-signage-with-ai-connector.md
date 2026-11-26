@@ -157,6 +157,15 @@ Add transforge-api.optisigns.com to Claude's allowed domains, as described above
 
 Use the exact names shown in the portal. If errors continue, remove the connector from your assistant, add it again and sign in again.
 
+* * *
+
+## Related Articles
+
+  * [AI Tools in OptiSigns: OptiBot, AI Designer, OptiDev and the AI Connector](<https://support.optisigns.com/hc/en-us/articles/57688527779219?ref=related>)
+  * [Build Integrations Using the OptiSigns Enterprise App](<https://support.optisigns.com/hc/en-us/articles/13320135306515?ref=related>)
+  * [How to Integrate API and Publish API Data via OptiSync](<https://support.optisigns.com/hc/en-us/articles/22875592994195?ref=related>)
+  * [OptiDev Add-on - Free Trial and Pricing](<https://support.optisigns.com/hc/en-us/articles/54095075680275?ref=related>)
+
 ### That’s all!
 
 OptiSigns is the leader in [digital signage software](<https://www.optisigns.com/>). If you have any additional questions, concerns or any feedback about OptiSigns, feel free to reach out to our support team at [support@optisigns.com](<mailto:support@optisigns.com>).

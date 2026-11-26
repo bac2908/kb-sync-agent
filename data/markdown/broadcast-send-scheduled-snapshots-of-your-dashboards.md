@@ -184,6 +184,16 @@ Each run sends a POST request with a JSON body like this:
   * For a run you started with Run now, scheduledFor is sent as manual: followed by a timestamp rather than an ISO date.
   * Respond with a 2xx status. Any other response is recorded as a failed delivery in the run history, where it can be retried.
 
+* * *
+
+## Related Articles
+
+  * [How to Get a Microsoft Teams Webhook URL for OptiSigns Broadcast](<https://support.optisigns.com/hc/en-us/articles/55416186918163?ref=related>)
+  * [How to Display Microsoft Power BI Dashboards & Reports with OptiSigns](<https://support.optisigns.com/hc/en-us/articles/360024859713?ref=related>)
+  * [How to Display a Snowflake Dashboard with OptiSigns](<https://support.optisigns.com/hc/en-us/articles/53028011485715?ref=related>)
+  * [Advanced: Proof of Play (or Playback report)](<https://support.optisigns.com/hc/en-us/articles/360058936513?ref=related>)
+  * [How to Display Datadog Dashboards on OptiSigns](<https://support.optisigns.com/hc/en-us/articles/56493703696659?ref=related>)
+
 ### That’s all!
 
 OptiSigns is the leader in [digital signage software](<https://www.optisigns.com/>). If you have any additional questions, concerns or any feedback about OptiSigns, feel free to reach out to our support team at [support@optisigns.com](<mailto:support@optisigns.com>).

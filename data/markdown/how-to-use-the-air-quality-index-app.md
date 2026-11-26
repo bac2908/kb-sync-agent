@@ -111,6 +111,15 @@ Back in **Edit Screen** , hit **Save**. Your air quality readings will now displ
 
 Your Air Quality Index app can also be displayed in a Playlist or Schedule, or as one zone of a [Split Screen](<https://support.optisigns.com/hc/en-us/articles/360026559573>).
 
+* * *
+
+## Related Articles
+
+  * [How to Use Weather Apps in OptiSigns](<https://support.optisigns.com/hc/en-us/articles/360017964153?ref=related>)
+  * [How to Use the Weather Alert App](<https://support.optisigns.com/hc/en-us/articles/6757989639827?ref=related>)
+  * [How to Use the Weather Radar App](<https://support.optisigns.com/hc/en-us/articles/55906396437523?ref=related>)
+  * [How to Use Weather Apps Based on Device Location](<https://support.optisigns.com/hc/en-us/articles/4408052029587?ref=related>)
+
 ### That’s all!
 
 OptiSigns is the leader in [digital signage software](<https://www.optisigns.com/>). If you have any additional questions, concerns or any feedback about OptiSigns, feel free to reach out to our support team at [support@optisigns.com](<mailto:support@optisigns.com>).

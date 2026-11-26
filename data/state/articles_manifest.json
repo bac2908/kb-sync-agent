@@ -3,7 +3,7 @@
     "article_id": "360051014713",
     "title": "How to Use YouTube with OptiSigns",
     "slug": "how-to-use-youtube-with-optisigns",
-    "updated_at": "2026-10-30T20:44:00Z",
+    "updated_at": "2026-11-25T18:07:32Z",
     "hash": "d7ddcf0bd6fbddb1afd79361df5d77b5ed673b56b6174e92ff9baf1106a9e38b",
     "file_path": "data/markdown/how-to-use-youtube-with-optisigns.md"
   },
@@ -11,79 +11,79 @@
     "article_id": "57730354923923",
     "title": "Billing: Purchase Orders, Invoices and Tax Exemption",
     "slug": "billing-purchase-orders-invoices-and-tax-exemption",
-    "updated_at": "2026-11-19T20:27:28Z",
-    "hash": "6c91f8288bb898b522c304ca9c0226ba0238aa3a0b4c28fc23700a42f5eb474a",
+    "updated_at": "2026-11-25T17:16:41Z",
+    "hash": "1a46209fec98887b0c57b607453d738e8c57005879404b817cc0e183b4a46cdb",
     "file_path": "data/markdown/billing-purchase-orders-invoices-and-tax-exemption.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/57688527779219-AI-Tools-in-OptiSigns-OptiBot-AI-Designer-OptiDev-and-the-AI-Connector": {
     "article_id": "57688527779219",
     "title": "AI Tools in OptiSigns: OptiBot, AI Designer, OptiDev and the AI Connector",
     "slug": "ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector",
-    "updated_at": "2026-11-18T18:22:31Z",
-    "hash": "eaab31424ad724b758fea4bc5cc5506d1ffede27c3196f0bce364da0e1f8724d",
+    "updated_at": "2026-11-25T17:12:40Z",
+    "hash": "864e137d673f34285d0537a6eb9216461952fa4a9b8d9827ce996e74c9bce583",
     "file_path": "data/markdown/ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/57645638683411-The-New-Designer-Complete-Feature-Guide": {
     "article_id": "57645638683411",
     "title": "The New Designer: Complete Feature Guide",
     "slug": "the-new-designer-complete-feature-guide",
-    "updated_at": "2026-11-17T17:52:09Z",
-    "hash": "db3cd76514bf252365eaa76be050f81c1633320106e15f466e0bef0d1a602daa",
+    "updated_at": "2026-11-25T17:20:22Z",
+    "hash": "9afe4acc4e030a2b3ef2380ba32ce056f4514828498f1fe56df93062c7753fae",
     "file_path": "data/markdown/the-new-designer-complete-feature-guide.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/56987330525587-Connect-ChatGPT-Claude-and-Grok-to-OptiSigns-Digital-Signage-with-AI-Connector": {
     "article_id": "56987330525587",
     "title": "Connect ChatGPT, Claude and Grok to OptiSigns Digital Signage with AI Connector",
     "slug": "connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector",
-    "updated_at": "2026-11-18T16:34:19Z",
-    "hash": "54b3b10fcda01eec7a0944adcf0dd687773c547e66b121a88abd62013ec55d4f",
+    "updated_at": "2026-11-25T17:02:43Z",
+    "hash": "b9c66f6aef10aab96cc9f6ade6c708ede23b139ba1f3daa57b680fd3c97f3088",
     "file_path": "data/markdown/connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/56498391179667-How-to-Use-the-Eventbrite-Events-App": {
     "article_id": "56498391179667",
     "title": "How to Use the Eventbrite Events App",
     "slug": "how-to-use-the-eventbrite-events-app",
-    "updated_at": "2026-11-12T23:15:33Z",
-    "hash": "cad07e52e62b077cfeec0316bdc4096b867ea5cc23b75d716650fdbe96dc60d4",
+    "updated_at": "2026-11-25T17:02:45Z",
+    "hash": "c55cdabac60d43208c719a73614d9337486b1825777c6ec74d8f9ed57cfd36c3",
     "file_path": "data/markdown/how-to-use-the-eventbrite-events-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/56498363329683-How-to-Use-the-Air-Quality-Index-App": {
     "article_id": "56498363329683",
     "title": "How to Use the Air Quality Index App",
     "slug": "how-to-use-the-air-quality-index-app",
-    "updated_at": "2026-10-16T21:10:49Z",
-    "hash": "40384bf9fb5c522ada4c8809f1811b201343054d0a4b54a34da2a79ac63f17ea",
+    "updated_at": "2026-11-25T17:15:29Z",
+    "hash": "20f67f82c1ed471a91b7c3386d59e5c4f919e2a28e7168bc4452bdadad6e196a",
     "file_path": "data/markdown/how-to-use-the-air-quality-index-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/56493703696659-How-to-Display-Datadog-Dashboards-on-OptiSigns": {
     "article_id": "56493703696659",
     "title": "How to Display Datadog Dashboards on OptiSigns",
     "slug": "how-to-display-datadog-dashboards-on-optisigns",
-    "updated_at": "2026-10-16T19:51:56Z",
-    "hash": "3a0acabc6e26701c5fe95d5023a3b71bfa4792faa15152488dc4ed707311d742",
+    "updated_at": "2026-11-25T17:02:49Z",
+    "hash": "ad7a4c3580cb7feb45568608d31c581b8d6715595cd8547a7464c1719e40e1cf",
     "file_path": "data/markdown/how-to-display-datadog-dashboards-on-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55906396437523-How-to-Use-the-Weather-Radar-App": {
     "article_id": "55906396437523",
     "title": "How to Use the Weather Radar App",
     "slug": "how-to-use-the-weather-radar-app",
-    "updated_at": "2026-09-29T19:04:57Z",
-    "hash": "49ffe46a27728218071b1ec6593f31d0d9f1bb9e2215acb18b96c79051e28896",
+    "updated_at": "2026-11-25T17:15:38Z",
+    "hash": "2daf133dad9996a13bd04ee42381c98644e8f2541677cd6b9e902187ae7f489f",
     "file_path": "data/markdown/how-to-use-the-weather-radar-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55895814798739-How-to-Display-Salesforce-Dashboards-and-Reports-on-OptiSigns": {
     "article_id": "55895814798739",
     "title": "How to Display Salesforce Dashboards and Reports on OptiSigns",
     "slug": "how-to-display-salesforce-dashboards-and-reports-on-optisigns",
-    "updated_at": "2026-10-16T21:20:16Z",
-    "hash": "0a7939bc5b24aff7588a3ccceb037fdcace11e42b084cba06b08e9d3a646dcd2",
+    "updated_at": "2026-11-25T17:02:53Z",
+    "hash": "8c503faa20c94458933692fca6da324407b03f25d20150cbdac36991d2899978",
     "file_path": "data/markdown/how-to-display-salesforce-dashboards-and-reports-on-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55719322614803-Inbound-Webhook-DataSources-in-Designer": {
     "article_id": "55719322614803",
     "title": "Inbound Webhook DataSources in Designer",
     "slug": "inbound-webhook-datasources-in-designer",
-    "updated_at": "2026-11-23T16:23:26Z",
+    "updated_at": "2026-11-25T17:02:55Z",
     "hash": "8021a9790afeb38c41a929923c7e35a2db3eb85197c00a81d2e2910912ab285b",
     "file_path": "data/markdown/inbound-webhook-datasources-in-designer.md"
   },
@@ -91,143 +91,143 @@
     "article_id": "55709616003219",
     "title": "Using the X Social App / Add-On",
     "slug": "using-the-x-social-app-add-on",
-    "updated_at": "2026-09-23T19:58:50Z",
-    "hash": "fb7fcb8e04419b2e9f87d6be797b0a53a0dac1ffce0ba06ea10308b814784cc3",
+    "updated_at": "2026-11-25T17:14:54Z",
+    "hash": "b68aeba9d146e5f61655081b7500c3bbb6af85e3ab49ecf8156350d02c3af1f7",
     "file_path": "data/markdown/using-the-x-social-app-add-on.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55669121864979-Using-the-Flight-Schedule-App": {
     "article_id": "55669121864979",
     "title": "Using the Flight Schedule App",
     "slug": "using-the-flight-schedule-app",
-    "updated_at": "2026-09-22T18:59:24Z",
-    "hash": "874c552467daf0ab687d8d022694cf3452516fb867727535638fdbe528fe0589",
+    "updated_at": "2026-11-25T17:12:27Z",
+    "hash": "101c88045e743b80010c99fe3c1de82cd7a22ef5e34f32c1365ca94b7dae84f6",
     "file_path": "data/markdown/using-the-flight-schedule-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55640830295187-Using-the-Japan-Transit-App": {
     "article_id": "55640830295187",
     "title": "Using the Japan Transit App",
     "slug": "using-the-japan-transit-app",
-    "updated_at": "2026-09-21T20:41:52Z",
-    "hash": "af62d9e009adc4538d87e19fe7aecd8ae868a6b1dcc948be2e00c55ba696f359",
+    "updated_at": "2026-11-25T17:12:36Z",
+    "hash": "67f22c89e427c010355e75c44f0040892367755c7a691e59ae8ebc45757a08aa",
     "file_path": "data/markdown/using-the-japan-transit-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55450681344915-Connect-SharePoint-News-to-OptiSigns-Digital-Signage": {
     "article_id": "55450681344915",
     "title": "Connect SharePoint News to OptiSigns Digital Signage",
     "slug": "connect-sharepoint-news-to-optisigns-digital-signage",
-    "updated_at": "2026-09-15T23:09:01Z",
-    "hash": "8305dc537e67f5f461797a7f0fa87316f38f4db569cf8bd42f8f9bd5ce3b1185",
+    "updated_at": "2026-11-25T17:10:32Z",
+    "hash": "1aa3c3affcf0a88076ba8a3962e1820d72d10fed3dbd242317e6b8500ea50ce7",
     "file_path": "data/markdown/connect-sharepoint-news-to-optisigns-digital-signage.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55447693635731-How-to-Display-Grafana-Dashboards-on-OptiSigns": {
     "article_id": "55447693635731",
     "title": "How to Display Grafana Dashboards on OptiSigns",
     "slug": "how-to-display-grafana-dashboards-on-optisigns",
-    "updated_at": "2026-10-08T16:32:47Z",
-    "hash": "d0d3be1933f0a5dc24edc32ff41fcd3baf6b4af0588f1110d3e8c082b35f7489",
+    "updated_at": "2026-11-25T17:12:48Z",
+    "hash": "91a0075565f62028149a8744204fd5ec9e676462d49296674fcb4057ae01e358",
     "file_path": "data/markdown/how-to-display-grafana-dashboards-on-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55416186918163-How-to-Get-a-Microsoft-Teams-Webhook-URL-for-OptiSigns-Broadcast": {
     "article_id": "55416186918163",
     "title": "How to Get a Microsoft Teams Webhook URL for OptiSigns Broadcast",
     "slug": "how-to-get-a-microsoft-teams-webhook-url-for-optisigns-broadcast",
-    "updated_at": "2026-09-15T17:33:06Z",
-    "hash": "3f14cd7e6097266c61e0ce345a6b2e2f97898397e244e4f04dd5a1aedca3408e",
+    "updated_at": "2026-11-25T17:10:49Z",
+    "hash": "26b86007ba73e66a9d38b1761e847270fd839df1ad223b9263f1ec0a30510528",
     "file_path": "data/markdown/how-to-get-a-microsoft-teams-webhook-url-for-optisigns-broadcast.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/55416185869331-Broadcast-Send-Scheduled-Snapshots-of-Your-Dashboards": {
     "article_id": "55416185869331",
     "title": "Broadcast: Send Scheduled Snapshots of Your Dashboards",
     "slug": "broadcast-send-scheduled-snapshots-of-your-dashboards",
-    "updated_at": "2026-09-23T16:24:51Z",
-    "hash": "7675f9a02830c965817e2b897a38e22f657812b8ad79955fb86ffe3475602fee",
+    "updated_at": "2026-11-25T17:03:09Z",
+    "hash": "7b7e9eee3984bb651fb4fa21dba05e56ed1729c6db64ff993ecb6e35801f9ff7",
     "file_path": "data/markdown/broadcast-send-scheduled-snapshots-of-your-dashboards.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/54095075680275-OptiDev-Add-on-Free-Trial-and-Pricing": {
     "article_id": "54095075680275",
     "title": "OptiDev Add-on - Free Trial and Pricing",
     "slug": "optidev-add-on-free-trial-and-pricing",
-    "updated_at": "2026-11-18T17:12:24Z",
-    "hash": "5563a934eab905de399b223d944b450825acecabfde49f3181bb7ba46b772f76",
+    "updated_at": "2026-11-25T18:11:48Z",
+    "hash": "7aea579ad246cd0312d7f607864f3f5927c44699d813d062dfb1cf7cf9993fa8",
     "file_path": "data/markdown/optidev-add-on-free-trial-and-pricing.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53952018650515-How-to-Display-Databricks-Dashboards-on-OptiSigns": {
     "article_id": "53952018650515",
     "title": "How to Display Databricks Dashboards on OptiSigns",
     "slug": "how-to-display-databricks-dashboards-on-optisigns",
-    "updated_at": "2026-08-11T19:04:29Z",
-    "hash": "5c8eee68d8545d4a6dac313df183a37312768002ba42759d1ad433cdccf1f5db",
+    "updated_at": "2026-11-25T17:12:45Z",
+    "hash": "dbe0c27bd346985cc034ef69da677d32bf694e521920e8676defff23dc734458",
     "file_path": "data/markdown/how-to-display-databricks-dashboards-on-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53497007807251-Device-Management-and-Mass-Provisioning": {
     "article_id": "53497007807251",
     "title": "Device Management and Mass Provisioning",
     "slug": "device-management-and-mass-provisioning",
-    "updated_at": "2026-10-15T16:10:20Z",
-    "hash": "099696839052bc6f73cc6f1f53a56d6e7de922cbb41691599ebba5c8ebce2281",
+    "updated_at": "2026-11-25T17:47:47Z",
+    "hash": "62a2d4a16dd4ce8e54838acb32db0b09e52c8f52c7f4fad81c424860bb71041f",
     "file_path": "data/markdown/device-management-and-mass-provisioning.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53293393593491-Refer-Earn-OptiSigns-Referral-Program": {
     "article_id": "53293393593491",
     "title": "Refer & Earn: OptiSigns Referral Program",
     "slug": "refer-earn-optisigns-referral-program",
-    "updated_at": "2026-07-08T17:09:50Z",
-    "hash": "9e3ceb2ebc93b89b7c47a46a91c449d80c09d6f4d8e393dfad3b4a3c9933e7d4",
+    "updated_at": "2026-11-25T17:16:45Z",
+    "hash": "cb328662b2d9983874a6d03397fe2b6ad54895291f872c1886630169e5dbec36",
     "file_path": "data/markdown/refer-earn-optisigns-referral-program.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53216900345875-What-Access-Does-OptiSigns-Have-to-My-Account-and-Devices": {
     "article_id": "53216900345875",
     "title": "What Access Does OptiSigns Have to My Account and Devices?",
     "slug": "what-access-does-optisigns-have-to-my-account-and-devices",
-    "updated_at": "2026-07-06T15:29:04Z",
-    "hash": "ca740c39976c5c37e581917913776818fa87c5c349c418c99e8dc21e02c32359",
+    "updated_at": "2026-11-25T17:17:42Z",
+    "hash": "00bd85ae9852c709a43d7d46333b9a261a31892b5f0d4087428a08529d989845",
     "file_path": "data/markdown/what-access-does-optisigns-have-to-my-account-and-devices.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53095698149011-Using-the-Japan-Earthquake-App": {
     "article_id": "53095698149011",
     "title": "Using the Japan Earthquake App",
     "slug": "using-the-japan-earthquake-app",
-    "updated_at": "2026-08-12T14:38:37Z",
-    "hash": "14f175edec6d8290969ad7a08e3bcce67da62d12db8de6dfee23c2ecee29dd21",
+    "updated_at": "2026-11-25T17:12:31Z",
+    "hash": "d39386f21184fdfcce7634fb1a25dc13304ea3a84bf94931963b81bc2fcae634",
     "file_path": "data/markdown/using-the-japan-earthquake-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/53028011485715-How-to-Display-a-Snowflake-Dashboard-with-OptiSigns": {
     "article_id": "53028011485715",
     "title": "How to Display a Snowflake Dashboard with OptiSigns",
     "slug": "how-to-display-a-snowflake-dashboard-with-optisigns",
-    "updated_at": "2026-07-01T21:59:22Z",
-    "hash": "fc548227c8fd5785cb29b8f01bca6030e8ef831a2f60b9f5c7178b90de2496ba",
+    "updated_at": "2026-11-25T17:03:23Z",
+    "hash": "0b679d23e96d0654eb7942ca62be4ad9826603bd2a4448aef07e2cdeec57ade5",
     "file_path": "data/markdown/how-to-display-a-snowflake-dashboard-with-optisigns.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/52523606879251-OptiSigns-Digital-Signage-App-for-Zoom-Adding-Using-and-Removing-the-App": {
     "article_id": "52523606879251",
     "title": "OptiSigns Digital Signage App for Zoom — Adding, Using, and Removing the App",
     "slug": "optisigns-digital-signage-app-for-zoom-adding-using-and-removing-the-app",
-    "updated_at": "2026-06-11T22:24:43Z",
-    "hash": "68fce6641a63b6163a29c2eff278fa15bf8794905c8f1fe91eb126d7210fe41c",
+    "updated_at": "2026-11-25T17:03:27Z",
+    "hash": "df05a9edd24831bbd6af00e8e90b929b17035942f28799d59e33220c879a5ce7",
     "file_path": "data/markdown/optisigns-digital-signage-app-for-zoom-adding-using-and-removing-the-app.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/52412502456083-Connect-Google-Meet-Hardware-to-OptiSigns-Digital-Signage": {
     "article_id": "52412502456083",
     "title": "Connect Google Meet Hardware to OptiSigns Digital Signage",
     "slug": "connect-google-meet-hardware-to-optisigns-digital-signage",
-    "updated_at": "2026-06-15T19:14:07Z",
-    "hash": "71f66af933e777332790beb6363e2ca736e1f0f980be09ee1c5250d83ab4179c",
+    "updated_at": "2026-11-25T17:03:29Z",
+    "hash": "73c4d344388fc5787732edd5dfeedcb21595e2763052ff6736c82d5eb94e7fc1",
     "file_path": "data/markdown/connect-google-meet-hardware-to-optisigns-digital-signage.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/52350277262483-Connect-Microsoft-Teams-Rooms-to-OptiSigns-Digital-Signage": {
     "article_id": "52350277262483",
     "title": "Connect Microsoft Teams Rooms to OptiSigns Digital Signage",
     "slug": "connect-microsoft-teams-rooms-to-optisigns-digital-signage",
-    "updated_at": "2026-08-27T19:45:55Z",
-    "hash": "3db54d79c0af6dba624a966dd7e0b1a6e244ac08adde054684afa9314f1813aa",
+    "updated_at": "2026-11-25T17:03:31Z",
+    "hash": "d286a97c437107bc6a76c06e9ea8777dd5ec1a4c17564706f1a67a4f9462d752",
     "file_path": "data/markdown/connect-microsoft-teams-rooms-to-optisigns-digital-signage.md"
   },
   "https://support.optisigns.com/hc/en-us/articles/52113036672403-Room-Integrations-Turn-Your-Meeting-Rooms-into-Digital-Signage": {
     "article_id": "52113036672403",
     "title": "Room Integrations: Turn Your Meeting Rooms into Digital Signage",
     "slug": "room-integrations-turn-your-meeting-rooms-into-digital-signage",
-    "updated_at": "2026-07-08T14:58:11Z",
+    "updated_at": "2026-11-25T17:03:33Z",
     "hash": "22c9d43d304d9bfa6ea93d087224eee17e045cee8ffeb278281d7aa70a3612a3",
     "file_path": "data/markdown/room-integrations-turn-your-meeting-rooms-into-digital-signage.md"
   },
@@ -235,8 +235,8 @@
     "article_id": "52069065128723",
     "title": "Connect Zoom Rooms to OptiSigns Digital Signage",
     "slug": "connect-zoom-rooms-to-optisigns-digital-signage",
-    "updated_at": "2026-07-17T22:17:54Z",
-    "hash": "4f444359a7683c646b5ada5c5c2cbb90546ae65e7578f8a0c05214c4f1d52dec",
+    "updated_at": "2026-11-25T17:03:35Z",
+    "hash": "ec7e5ebb176e887428a0dd6bf76a1fc0d92626d321a4e50dff3a776963f08161",
     "file_path": "data/markdown/connect-zoom-rooms-to-optisigns-digital-signage.md"
   }
 }

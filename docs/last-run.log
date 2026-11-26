@@ -43,19 +43,82 @@ Manifest commit deferred until upload succeeds.
 Step 2: Delta summary...
 Articles discovered: 30
 Added: 0
-Updated: 0
+Updated: 27
 Removed from source: 0
-Skipped: 30
+Skipped: 3
 
 Step 3: Uploading delta Markdown files to Gemini File Search Store...
-No Markdown delta files to upload to Gemini.
+Using existing Gemini file search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/billingpurchaseordersinvoic-ql8z1n3l57wm
+Uploaded to Gemini File Search: billing-purchase-orders-invoices-and-tax-exemption.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/aitoolsinoptisignsoptibotai-7xbjmdvuj7h5
+Uploaded to Gemini File Search: ai-tools-in-optisigns-optibot-ai-designer-optidev-and-the-ai-connector.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/thenewdesignercompletefeatu-hzkxy92t6tsj
+Uploaded to Gemini File Search: the-new-designer-complete-feature-guide.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectchatgptclaudeandgrok-9w1mh9eabbpr
+Uploaded to Gemini File Search: connect-chatgpt-claude-and-grok-to-optisigns-digital-signage-with-ai-connector.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtousetheeventbriteevents-0dpnegtxhc4q
+Uploaded to Gemini File Search: how-to-use-the-eventbrite-events-app.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtousetheairqualityindexa-kyi447yqgxx1
+Uploaded to Gemini File Search: how-to-use-the-air-quality-index-app.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatadogdashboar-4m4lo23nc2py
+Uploaded to Gemini File Search: how-to-display-datadog-dashboards-on-optisigns.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtousetheweatherradarappm-haaf70jveilo
+Uploaded to Gemini File Search: how-to-use-the-weather-radar-app.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaysalesforcedashb-944u8r0vgsf9
+Uploaded to Gemini File Search: how-to-display-salesforce-dashboards-and-reports-on-optisigns.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthexsocialappaddonmd-e2efw3ajtsaj
+Uploaded to Gemini File Search: using-the-x-social-app-add-on.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingtheflightscheduleappmd-x73ju2y67tbs
+Uploaded to Gemini File Search: using-the-flight-schedule-app.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthejapantransitappmd-7dxdrms0zh3i
+Uploaded to Gemini File Search: using-the-japan-transit-app.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectsharepointnewstoopti-v9u9m8h152po
+Uploaded to Gemini File Search: connect-sharepoint-news-to-optisigns-digital-signage.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaygrafanadashboar-06vhf16i8hok
+Uploaded to Gemini File Search: how-to-display-grafana-dashboards-on-optisigns.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtogetamicrosoftteamswebh-ui0vqh7h47tq
+Uploaded to Gemini File Search: how-to-get-a-microsoft-teams-webhook-url-for-optisigns-broadcast.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/broadcastsendscheduledsnaps-hg70b92o5cjt
+Uploaded to Gemini File Search: broadcast-send-scheduled-snapshots-of-your-dashboards.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/optidevaddonfreetrialandpri-wnluvk0ezefy
+Uploaded to Gemini File Search: optidev-add-on-free-trial-and-pricing.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplaydatabricksdashb-ybivt304munl
+Uploaded to Gemini File Search: how-to-display-databricks-dashboards-on-optisigns.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/devicemanagementandmassprov-hw20usl26o7u
+Uploaded to Gemini File Search: device-management-and-mass-provisioning.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/referearnoptisignsreferralp-kn13dfjat140
+Uploaded to Gemini File Search: refer-earn-optisigns-referral-program.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/whataccessdoesoptisignshave-zzhzhj9zt502
+Uploaded to Gemini File Search: what-access-does-optisigns-have-to-my-account-and-devices.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/usingthejapanearthquakeappm-3m2y1v1f9qd0
+Uploaded to Gemini File Search: using-the-japan-earthquake-app.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/howtodisplayasnowflakedashb-giv7cswhjpbh
+Uploaded to Gemini File Search: how-to-display-a-snowflake-dashboard-with-optisigns.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/optisignsdigitalsignageappf-38a4f283t5lb
+Uploaded to Gemini File Search: optisigns-digital-signage-app-for-zoom-adding-using-and-removing-the-app.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectgooglemeethardwareto-96echp5sqycg
+Uploaded to Gemini File Search: connect-google-meet-hardware-to-optisigns-digital-signage.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectmicrosoftteamsroomst-4bbsk33nn2kg
+Uploaded to Gemini File Search: connect-microsoft-teams-rooms-to-optisigns-digital-signage.md
+Waiting for Gemini indexing operation: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza/upload/operations/connectzoomroomstooptisigns-nf1i35pftow8
+Uploaded to Gemini File Search: connect-zoom-rooms-to-optisigns-digital-signage.md
+
+Gemini upload completed.
+File search store: fileSearchStores/kbsyncagentknowledgebase-fapa45j4vgza
+Markdown files found: 54
+Markdown delta files considered: 27
+Uploaded files: 27
+Skipped files: 0
+Estimated chunks embedded: 118
+Gemini upload manifest: data/state/gemini_upload_manifest.json
 
 Job completed successfully.
 Articles discovered: 30
 Added: 0
-Updated: 0
+Updated: 27
 Removed from source: 0
-Skipped: 30
-Uploaded to Gemini: 0
+Skipped: 3
+Uploaded to Gemini: 27
 Gemini skipped uploads: 0
-Estimated chunks embedded: 0
+Estimated chunks embedded: 118

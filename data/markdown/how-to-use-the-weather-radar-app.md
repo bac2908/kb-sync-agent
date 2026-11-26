@@ -109,6 +109,15 @@ Weather Radar covers the US only for now. For weather outside the US, use the [W
 
 The app uses the device's graphics hardware to animate smoothly. Older devices fall back to a simpler animation, which can look less fluid.
 
+* * *
+
+## Related Articles
+
+  * [How to Use Weather Apps in OptiSigns](<https://support.optisigns.com/hc/en-us/articles/360017964153?ref=related>)
+  * [List of Supported Cities for Weather Wall City Themes](<https://support.optisigns.com/hc/en-us/articles/29465595849235?ref=related>)
+  * [How to Use the Weather Alert App](<https://support.optisigns.com/hc/en-us/articles/6757989639827?ref=related>)
+  * [How to Use Weather Apps Based on Device Location](<https://support.optisigns.com/hc/en-us/articles/4408052029587?ref=related>)
+
 ### That’s all!
 
 OptiSigns is the leader in [digital signage software](<https://www.optisigns.com/>). If you have any additional questions, concerns or any feedback about OptiSigns, feel free to reach out to our support team at [support@optisigns.com](<mailto:support@optisigns.com>).

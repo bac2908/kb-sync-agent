@@ -270,6 +270,15 @@ This means that too many requests have been sent to the Microsoft tenant recentl
 
 * * *
 
+## Related Articles
+
+  * [Displaying SharePoint Sites on OptiSigns](<https://support.optisigns.com/hc/en-us/articles/4414539282067?ref=related>)
+  * [How to Create Custom News Feeds with OptiSync](<https://support.optisigns.com/hc/en-us/articles/35337746613139?ref=related>)
+  * [How to Get a Microsoft Teams Webhook URL for OptiSigns Broadcast](<https://support.optisigns.com/hc/en-us/articles/55416186918163?ref=related>)
+  * [How to Use RSS feeds with OptiSigns](<https://support.optisigns.com/hc/en-us/articles/360037965133?ref=related>)
+
+* * *
+
 ### That’s all!
 
 OptiSigns is the leader in [digital signage software](<https://www.optisigns.com/>). If you have any additional questions, concerns or any feedback about OptiSigns, feel free to reach out to our support team at [support@optisigns.com](<mailto:support@optisigns.com>).

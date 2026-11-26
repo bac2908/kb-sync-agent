@@ -171,6 +171,15 @@ Adjust **Speed** under **Display Options** in the asset's settings.
 
 Departure information comes from the Public Transportation Open Data Center (ODPT). The board shows the required source and licence attribution on screen. The data is provided by the transport operators and ODPT, and is not guaranteed to be accurate or complete.
 
+* * *
+
+## Related Articles
+
+  * [Using the Japan Earthquake App](<https://support.optisigns.com/hc/en-us/articles/53095698149011?ref=related>)
+  * [Using the Flight Schedule App](<https://support.optisigns.com/hc/en-us/articles/55669121864979?ref=related>)
+  * [How to use Google Traffic App](<https://support.optisigns.com/hc/en-us/articles/360047499893?ref=related>)
+  * [How to Use Weather Apps in OptiSigns](<https://support.optisigns.com/hc/en-us/articles/360017964153?ref=related>)
+
 ### That’s all!
 
 OptiSigns is the leader in [digital signage software](<https://www.optisigns.com/>). If you have any additional questions, concerns or any feedback about OptiSigns, feel free to reach out to our support team at [support@optisigns.com](<mailto:support@optisigns.com>).

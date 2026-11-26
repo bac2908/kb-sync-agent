@@ -458,6 +458,16 @@ Press **?** to see every keyboard shortcut in the New Designer:
 
 On a Mac, shortcuts use **Cmd**. On Windows, they use **Ctrl**. Shortcuts don't work while you're typing in a panel field.
 
+* * *
+
+## Related Articles
+
+  * [Getting Started with Designer](<https://support.optisigns.com/hc/en-us/articles/42087942047379?ref=related>)
+  * [Widgets in Designer](<https://support.optisigns.com/hc/en-us/articles/42436941395475?ref=related>)
+  * [Your Templates](<https://support.optisigns.com/hc/en-us/articles/42830652820115?ref=related>)
+  * [Brand Kit and Enforcing Brand Guidelines](<https://support.optisigns.com/hc/en-us/articles/42313875427859?ref=related>)
+  * [How to Set Up Dynamic Data Mapping with OptiSync](<https://support.optisigns.com/hc/en-us/articles/29217646663187?ref=related>)
+
 ### That’s all!
 
 OptiSigns is the leader in [digital signage software](<https://www.optisigns.com/>). If you have any additional questions, concerns or any feedback about OptiSigns, feel free to reach out to our support team at [support@optisigns.com](<mailto:support@optisigns.com>).

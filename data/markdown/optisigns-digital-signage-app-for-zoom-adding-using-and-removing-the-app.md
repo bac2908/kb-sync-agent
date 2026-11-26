@@ -97,3 +97,12 @@ If you need account-level deletion or data access requests, contact [support@opt
 ## Reporting a security issue
 
 Email [support@optisigns.com](<mailto:support@optisigns.com>) with the subject "Security" so we can prioritize handling.
+
+* * *
+
+## Related Articles
+
+  * [Connect Zoom Rooms to OptiSigns Digital Signage](<https://support.optisigns.com/hc/en-us/articles/52069065128723?ref=related>)
+  * [Room Integrations: Turn Your Meeting Rooms into Digital Signage](<https://support.optisigns.com/hc/en-us/articles/52113036672403?ref=related>)
+  * [Connect Microsoft Teams Rooms to OptiSigns Digital Signage](<https://support.optisigns.com/hc/en-us/articles/52350277262483?ref=related>)
+  * [Assign content to your screens](<https://support.optisigns.com/hc/en-us/articles/360016375153?ref=related>)

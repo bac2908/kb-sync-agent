@@ -176,3 +176,12 @@ OptiSigns Zoom Rooms integration uses a screen license, same as any other device
 ## Related documentation
 
 For full details on the Zoom permissions (scopes) OptiSigns uses, how to add or remove the app, and what happens to your data after removal, see [OptiSigns Digital Signage App for Zoom — Adding, Using, and Removing the App](<https://support.optisigns.com/hc/en-us/articles/52523606879251>).
+
+* * *
+
+## Related Articles
+
+  * [OptiSigns Digital Signage App for Zoom — Adding, Using, and Removing the App](<https://support.optisigns.com/hc/en-us/articles/52523606879251?ref=related>)
+  * [Room Integrations: Turn Your Meeting Rooms into Digital Signage](<https://support.optisigns.com/hc/en-us/articles/52113036672403?ref=related>)
+  * [Connect Cisco Webex Rooms to OptiSigns Digital Signage](<https://support.optisigns.com/hc/en-us/articles/51343184586643?ref=related>)
+  * [Connect Microsoft Teams Rooms to OptiSigns Digital Signage](<https://support.optisigns.com/hc/en-us/articles/52350277262483?ref=related>)

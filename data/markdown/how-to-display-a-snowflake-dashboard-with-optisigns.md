@@ -125,6 +125,15 @@ After this step, you should have:
 
 Now your Snowflake asset can be displayed securely.
 
+* * *
+
+## Related Articles
+
+  * [How to Display Databricks Dashboards on OptiSigns](<https://support.optisigns.com/hc/en-us/articles/53952018650515?ref=related>)
+  * [Broadcast: Send Scheduled Snapshots of Your Dashboards](<https://support.optisigns.com/hc/en-us/articles/55416185869331?ref=related>)
+  * [How to Display Microsoft Power BI Dashboards & Reports with OptiSigns](<https://support.optisigns.com/hc/en-us/articles/360024859713?ref=related>)
+  * [How to Display Grafana Dashboards on OptiSigns](<https://support.optisigns.com/hc/en-us/articles/55447693635731?ref=related>)
+
 ### That's all!
 
 OptiSigns is a leader in [digital signage software](<https://www.optisigns.com/>). If you have any additional questions, concerns or any feedback about OptiSigns or getting Snowflake to work on it, feel free to reach out to our support team at [support@optisigns.com](<mailto:support@optisigns.com>).

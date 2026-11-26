@@ -185,6 +185,15 @@ New posts are collected up to twice a day, so a post can take several hours to a
 
 * * *
 
+## Related Articles
+
+  * [How to Use the Social Mix App](<https://support.optisigns.com/hc/en-us/articles/4403267825171?ref=related>)
+  * [How to Moderate Your Social Media Feeds](<https://support.optisigns.com/hc/en-us/articles/4403015887763?ref=related>)
+  * [How far back or how many posts will be fetched for my Social Walls?](<https://support.optisigns.com/hc/en-us/articles/360042424294?ref=related>)
+  * [How to Use the LinkedIn App](<https://support.optisigns.com/hc/en-us/articles/4406180781203?ref=related>)
+
+* * *
+
 ### That’s all!
 
 OptiSigns is the leader in [digital signage software](<https://www.optisigns.com/>). If you have any additional questions, concerns or any feedback about OptiSigns, feel free to reach out to our support team at [support@optisigns.com](<mailto:support@optisigns.com>).
